@@ -1,0 +1,19 @@
+# ~~~ Exemple d'une recommendation.
+#
+# La source est le jeu de données sur lequel vous souhaitez voir
+# la recommendation apparaitre. Vous pouvez ajouter 1 ou plusieurs
+# recommendations ensuite.
+#
+# Le score de chaque recommendation peut-être entre 1 (min) et 100 (max).
+# Si vous ne savez pas quoi mettre, mettez 50.
+#
+# -
+#   source: https://www.data.gouv.fr/fr/datasets/jours-feries-en-france/
+#   recommendations:
+#     -
+#       id: https://www.data.gouv.fr/fr/datasets/repertoire-national-des-certifications-professionnelles-et-repertoire-specifique/
+#       score: 50
+#     -
+#       id: https://www.data.gouv.fr/fr/datasets/municipales-2020-resultats-2nd-tour/
+#       score: 50
+# ~~~

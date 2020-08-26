@@ -6,7 +6,7 @@ import requests
 import jsonschema
 import yaml
 
-JSONSCHEMA_URL = "https://raw.githubusercontent.com/AntoineAugusti/udata-recommendations/add-source-score/udata_recommendations/schema.json"
+JSONSCHEMA_URL = "https://raw.githubusercontent.com/opendatateam/udata-recommendations/master/udata_recommendations/schema.json"
 
 
 def extract_slug(url):

@@ -6,7 +6,7 @@ Vous pouvez définir des recommendations en éditant le fichier YAML [recommenda
 
 ## URL
 
-Les recommendations de ce dépôt sont disponibles en JSON à l'adresse https://etalab.github.io/recommendations-edito/recommendations.json
+Les recommendations de ce dépôt sont disponibles en JSON à l'adresse https://etalab.github.io/datagouvfr-recommendations-edito/recommendations.json
 
 ## Exemple
 

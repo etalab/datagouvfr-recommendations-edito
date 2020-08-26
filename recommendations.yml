@@ -17,3 +17,16 @@
 #       id: https://www.data.gouv.fr/fr/datasets/municipales-2020-resultats-2nd-tour/
 #       score: 50
 # ~~~
+
+-
+  source: https://www.data.gouv.fr/fr/datasets/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques/
+  recommendations:
+    -
+      id: https://www.data.gouv.fr/fr/datasets/fichier-exemple-stations-de-recharge-de-vehicules-electriques/
+      score: 50
+-
+  source: https://www.data.gouv.fr/fr/datasets/fichier-exemple-stations-de-recharge-de-vehicules-electriques/
+  recommendations:
+    -
+      id: https://www.data.gouv.fr/fr/datasets/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques/
+      score: 50

@@ -7,6 +7,9 @@
 # Le score de chaque recommendation peut-être entre 1 (min) et 100 (max).
 # Si vous ne savez pas quoi mettre, mettez 50.
 #
+# En utilisant l'URL d'une réutilisation et l'attribute `type: reuse`,
+# on peut aussi référencer une réutilisation sur un jeu de données.
+#
 # -
 #   source: https://www.data.gouv.fr/fr/datasets/jours-feries-en-france/
 #   recommendations:
@@ -16,6 +19,10 @@
 #     -
 #       id: https://www.data.gouv.fr/fr/datasets/municipales-2020-resultats-2nd-tour/
 #       score: 50
+#     -
+#       id: https://www.data.gouv.fr/fr/reuses/application-mobile-sites-de-prelevements-pour-les-tests-covid/
+#       score: 50
+#       type: reuse
 # ~~~
 
 -

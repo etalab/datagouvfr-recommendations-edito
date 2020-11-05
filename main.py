@@ -12,7 +12,7 @@ JSONSCHEMA_URL = "https://raw.githubusercontent.com/opendatateam/udata-recommend
 def extract_slug(url):
     error_message = f"{url} is malformed. Expected a data.gouv.fr URL like https://www.data.gouv.fr/fr/datasets/jours-feries-en-france/"
 
-    pattern = re.compile(r"^https://www\.data\.gouv\.fr/fr/datasets/(\S+)/$")
+    pattern = re.compile(r"^https://www\.data\.gouv\.fr/fr/(dataset|reuse)s/(\S+)/$")
 
     try:
         match = pattern.match(url)
@@ -22,7 +22,7 @@ def extract_slug(url):
     if not match:
         raise ValueError(error_message)
 
-    return match.group(1)
+    return match.group(1), match.group(2)
 
 
 def validate_recommendations(recommendations):
@@ -36,9 +36,9 @@ def validate_recommendations(recommendations):
 
 def build_recommendation(item):
     return {
-        "id": extract_slug(item["source"]),
+        "id": extract_slug(item["source"])[1],
         "recommendations": [
-            {"id": extract_slug(r["id"]), "score": int(r["score"])}
+            {"id": extract_slug(r["id"])[1], "score": int(r["score"]), "type": extract_slug(r["id"])[0]}
             for r in item["recommendations"]
         ],
     }

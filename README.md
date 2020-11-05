@@ -10,7 +10,11 @@ Les recommendations de ce dépôt sont disponibles en JSON à l'adresse https://
 
 ## Exemple
 
-Vous souhaitez voir apparaitre 2 recommendations sur le jeu de données https://www.data.gouv.fr/fr/datasets/jours-feries-en-france/. Vous pouvez indiquer ces 2 autres jeux de données de la manière suivante.
+Vous souhaitez voir apparaitre 3 recommendations sur le jeu de données https://www.data.gouv.fr/fr/datasets/jours-feries-en-france/ :
+- 2 autres jeux de données
+- 1 réutilisation
+
+Vous procéderez de la manière suivante :
 
 ```yaml
 -
@@ -22,4 +26,8 @@ Vous souhaitez voir apparaitre 2 recommendations sur le jeu de données https://
     -
       id: https://www.data.gouv.fr/fr/datasets/municipales-2020-resultats-2nd-tour/
       score: 50
+    -
+      id: https://www.data.gouv.fr/fr/reuses/application-mobile-sites-de-prelevements-pour-les-tests-covid/
+      score: 50
+      type: reuse
 ```

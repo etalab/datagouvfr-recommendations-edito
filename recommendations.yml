@@ -45,7 +45,7 @@
       score: 50
       type: reuse
 
-#Recommand Etalab app on DVF datasets
+# Recommend Etalab app on DVF datasets
 -
   source: https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/
   recommendations:

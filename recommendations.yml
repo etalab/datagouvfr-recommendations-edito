@@ -25,6 +25,7 @@
 #       type: reuse
 # ~~~
 
+# IRVE fichier exemple <-> base consolidée
 -
   source: https://www.data.gouv.fr/fr/datasets/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques/
   recommendations:
@@ -37,6 +38,7 @@
     -
       id: https://www.data.gouv.fr/fr/datasets/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques/
       score: 50
+# personnes décédées -> reuse matchid
 -
   source: https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/
   recommendations:
@@ -44,6 +46,22 @@
       id: https://www.data.gouv.fr/fr/reuses/moteur-de-recherche-des-personnes-decedees-matchid/
       score: 50
       type: reuse
+# Recommend Etalab app on DVF datasets
+-
+  source: https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/
+  recommendations:
+    -
+      id: https://www.data.gouv.fr/fr/reuses/explorateur-de-donnees-de-valeur-fonciere-dvf/
+      score: 50
+      type: reuse
+-
+  source: https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres-geolocalisees/
+  recommendations:
+    -
+      id: https://www.data.gouv.fr/fr/reuses/explorateur-de-donnees-de-valeur-fonciere-dvf/
+      score: 50
+      type: reuse
+# CPSTI Etalab <-> ACOSS
 -
   source: https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-aides-exceptionnelles-aux-artisans-et-commercants-dans-le-cadre-de-lepidemie-de-covid-19/
   recommendations:
@@ -56,4 +74,3 @@
     -
       id: https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-aides-exceptionnelles-aux-artisans-et-commercants-dans-le-cadre-de-lepidemie-de-covid-19/
       score: 50
-      type: reuse

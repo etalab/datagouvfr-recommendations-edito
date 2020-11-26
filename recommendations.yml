@@ -61,6 +61,15 @@
       id: https://www.data.gouv.fr/fr/reuses/explorateur-de-donnees-de-valeur-fonciere-dvf/
       score: 50
       type: reuse
+      
+# SIRET/SIREN -> reuse annuaire des entreprises
+-
+  source: https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/
+  recommendations:
+    -
+      id: https://www.data.gouv.fr/fr/reuses/lannuaire-des-entreprises/
+      score: 50
+      type: reuse
 # CPSTI Etalab <-> ACOSS
 -
   source: https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-aides-exceptionnelles-aux-artisans-et-commercants-dans-le-cadre-de-lepidemie-de-covid-19/

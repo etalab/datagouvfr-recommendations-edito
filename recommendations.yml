@@ -83,3 +83,12 @@
     -
       id: https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-aides-exceptionnelles-aux-artisans-et-commercants-dans-le-cadre-de-lepidemie-de-covid-19/
       score: 50
+
+# Recommend datatouille sur organisme de formation
+-
+  source: https://www.data.gouv.fr/fr/datasets/liste-publique-des-organismes-de-formation-l-6351-7-1-du-code-du-travail/
+  recommendations:
+    -
+      id: https://www.data.gouv.fr/fr/reuses/moteur-de-recherche-des-organismes-de-formation/
+      score: 50
+      type: reuse

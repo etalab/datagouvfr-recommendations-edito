@@ -92,3 +92,20 @@
       id: https://www.data.gouv.fr/fr/reuses/moteur-de-recherche-des-organismes-de-formation/
       score: 50
       type: reuse
+
+# Dashboard explore prix carburants sur les jdd officiels
+
+- 
+  source: https://www.data.gouv.fr/fr/datasets/prix-des-carburants-en-france-flux-instantane/
+  recommendations:
+  -
+    id: https://www.data.gouv.fr/fr/reuses/visualisation-des-donnees-sur-les-prix-des-carburants/
+    score: 50
+    type: reuse
+- 
+  source: https://www.data.gouv.fr/fr/datasets/prix-des-carburants-en-france-flux-quotidien/
+  recommendations:
+  -
+    id: https://www.data.gouv.fr/fr/reuses/visualisation-des-donnees-sur-les-prix-des-carburants/
+    score: 50
+    type: reuse

@@ -32,6 +32,19 @@
     -
       id: https://www.data.gouv.fr/fr/datasets/fichier-exemple-stations-de-recharge-de-vehicules-electriques/
       score: 50
+    - 
+      id: https://annuaire-entreprises.data.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for your Siret number?"
+          message: "L'annuaire des entreprises allows you to easily find SIRET numbers from the INSEE base."
+          button: "Visit l'annuaire des entreprises"
+        fr:
+          title: "Vous cherchez votre numéro Siret ?"
+          message: "L'annuaire des entreprises vous permet de facilement retrouver les numéros de SIRET depuis la base de l'INSEE."
+          button: "Visiter l'annuaire des entreprises"
 -
   source: https://www.data.gouv.fr/fr/datasets/fichier-exemple-stations-de-recharge-de-vehicules-electriques/
   recommendations:

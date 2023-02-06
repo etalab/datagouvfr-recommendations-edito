@@ -1,0 +1,140 @@
+[
+    {
+      "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+      "recommendations": [
+        {
+          "id": "fichier-exemple-stations-de-recharge-de-vehicules-electriques",
+          "score": 50,
+          "type": "dataset",
+          "messages": {}
+        },
+        {
+          "id": "https://annuaire-entreprises.data.gouv.fr/",
+          "score": 50,
+          "type": "external",
+          "messages": {
+            "en": {
+              "title": "Are you looking for your Siret number?",
+              "message": "L'annuaire des entreprises allows you to easily find SIRET numbers from the INSEE base.",
+              "button": "Visit l'annuaire des entreprises"
+            },
+            "fr": {
+              "title": "Vous cherchez votre num\u00e9ro Siret ?",
+              "message": "L'annuaire des entreprises vous permet de facilement retrouver les num\u00e9ros de SIRET depuis la base de l'INSEE.",
+              "button": "Visiter l'annuaire des entreprises"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fichier-exemple-stations-de-recharge-de-vehicules-electriques",
+      "recommendations": [
+        {
+          "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+          "score": 50,
+          "type": "dataset",
+          "messages": {}
+        }
+      ]
+    },
+    {
+      "id": "fichier-des-personnes-decedees",
+      "recommendations": [
+        {
+          "id": "moteur-de-recherche-des-personnes-decedees-matchid",
+          "score": 50,
+          "type": "reuse",
+          "messages": {}
+        }
+      ]
+    },
+    {
+      "id": "demandes-de-valeurs-foncieres",
+      "recommendations": [
+        {
+          "id": "explorateur-de-donnees-de-valeur-fonciere-dvf",
+          "score": 50,
+          "type": "reuse",
+          "messages": {}
+        }
+      ]
+    },
+    {
+      "id": "demandes-de-valeurs-foncieres-geolocalisees",
+      "recommendations": [
+        {
+          "id": "explorateur-de-donnees-de-valeur-fonciere-dvf",
+          "score": 50,
+          "type": "reuse",
+          "messages": {}
+        }
+      ]
+    },
+    {
+      "id": "base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret",
+      "recommendations": [
+        {
+          "id": "lannuaire-des-entreprises",
+          "score": 50,
+          "type": "reuse",
+          "messages": {}
+        }
+      ]
+    },
+    {
+      "id": "donnees-relatives-aux-aides-exceptionnelles-aux-artisans-et-commercants-dans-le-cadre-de-lepidemie-de-covid-19",
+      "recommendations": [
+        {
+          "id": "aide-exceptionnelle-cpsti-rci-covid-19",
+          "score": 50,
+          "type": "dataset",
+          "messages": {}
+        }
+      ]
+    },
+    {
+      "id": "aide-exceptionnelle-cpsti-rci-covid-19",
+      "recommendations": [
+        {
+          "id": "donnees-relatives-aux-aides-exceptionnelles-aux-artisans-et-commercants-dans-le-cadre-de-lepidemie-de-covid-19",
+          "score": 50,
+          "type": "dataset",
+          "messages": {}
+        }
+      ]
+    },
+    {
+      "id": "liste-publique-des-organismes-de-formation-l-6351-7-1-du-code-du-travail",
+      "recommendations": [
+        {
+          "id": "moteur-de-recherche-des-organismes-de-formation",
+          "score": 50,
+          "type": "reuse",
+          "messages": {}
+        }
+      ]
+    },
+    {
+      "id": "prix-des-carburants-en-france-flux-instantane",
+      "recommendations": [
+        {
+          "id": "visualisation-des-donnees-sur-les-prix-des-carburants",
+          "score": 50,
+          "type": "reuse",
+          "messages": {}
+        }
+      ]
+    },
+    {
+      "id": "prix-des-carburants-en-france-flux-quotidien",
+      "recommendations": [
+        {
+          "id": "visualisation-des-donnees-sur-les-prix-des-carburants",
+          "score": 50,
+          "type": "reuse",
+          "messages": {}
+        }
+      ]
+    }
+]

@@ -25,6 +25,14 @@ def extract_slug(url):
     return match.group(1), match.group(2)
 
 
+def get_type(recommendation):
+    return recommendation['type'] if 'type' in recommendation else "dataset"
+
+
+def is_external(type: str) -> bool:
+    return type == "external"
+
+
 def validate_recommendations(recommendations):
     """" Validate recommendations according to the JSON schema"""
     r = requests.get(JSONSCHEMA_URL, timeout=10)
@@ -34,21 +42,30 @@ def validate_recommendations(recommendations):
     jsonschema.validate(recommendations, schema=schema)
 
 
-def build_recommendation(item):
+def build_recommendations(item):
     return {
         "id": extract_slug(item["source"])[1],
         "recommendations": [
-            {"id": extract_slug(r["id"])[1], "score": int(r["score"]), "type": extract_slug(r["id"])[0]}
+            format_recommendation(r)
             for r in item["recommendations"]
         ],
     }
 
 
+def format_recommendation(recommendation):
+    type = get_type(recommendation)
+    return {
+        "id": recommendation["id"] if is_external(type) else extract_slug(recommendation["id"])[1],
+        "score": int(recommendation["score"]),
+        "type": type,
+        "messages": recommendation["messages"] if "messages" in recommendation else {}
+    }
+
 def main():
     with open("recommendations.yml") as f:
         src = yaml.safe_load(f) or []
 
-    recommendations = [build_recommendation(item) for item in src]
+    recommendations = [build_recommendations(item) for item in src]
 
     validate_recommendations(recommendations)
 

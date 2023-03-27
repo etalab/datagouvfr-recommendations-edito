@@ -72,13 +72,13 @@
       type: external
       messages:
         en:
-          title: "Are you looking for your Siret number?"
-          message: "L'annuaire des entreprises allows you to easily find SIRET numbers from the INSEE base."
-          button: "Visit l'annuaire des entreprises"
+          title: "Are you looking for your SIRET number?"
+          message: "L'Annuaire des Entreprises allows you to easily find SIRET numbers from the INSEE base."
+          button: "Visit l'Annuaire des Entreprises"
         fr:
-          title: "Vous cherchez votre numéro Siret ?"
-          message: "L'annuaire des entreprises vous permet de facilement retrouver les numéros de SIRET depuis la base de l'INSEE."
-          button: "Visiter l'annuaire des entreprises"
+          title: "Vous cherchez votre numéro SIRET ?"
+          message: "L'Annuaire des Entreprises vous permet de facilement retrouver des numéros de SIRET depuis la base de l'INSEE."
+          button: "Consulter l'Annuaire des Entreprises"
       
 # CPSTI Etalab <-> ACOSS
 -

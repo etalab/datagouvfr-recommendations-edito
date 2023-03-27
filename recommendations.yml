@@ -67,9 +67,19 @@
   source: https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/
   recommendations:
     -
-      id: https://www.data.gouv.fr/fr/reuses/lannuaire-des-entreprises/
+      id: https://annuaire-entreprises.data.gouv.fr/
       score: 50
-      type: reuse
+      type: external
+      messages:
+        en:
+          title: "Are you looking for your Siret number?"
+          message: "L'annuaire des entreprises allows you to easily find SIRET numbers from the INSEE base."
+          button: "Visit l'annuaire des entreprises"
+        fr:
+          title: "Vous cherchez votre numéro Siret ?"
+          message: "L'annuaire des entreprises vous permet de facilement retrouver les numéros de SIRET depuis la base de l'INSEE."
+          button: "Visiter l'annuaire des entreprises"
+      
 # CPSTI Etalab <-> ACOSS
 -
   source: https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-aides-exceptionnelles-aux-artisans-et-commercants-dans-le-cadre-de-lepidemie-de-covid-19/

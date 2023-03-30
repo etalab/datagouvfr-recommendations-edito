@@ -51,16 +51,34 @@
   source: https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/
   recommendations:
     -
-      id: https://www.data.gouv.fr/fr/reuses/explorateur-de-donnees-de-valeur-fonciere-dvf/
+      id: https://app.dvf.etalab.gouv.fr/
       score: 50
-      type: reuse
+      type: external
+      messages:
+        en:
+          title: "Are you looking for a property’s sale price ?"
+          message: "The « Données de valeur foncière (DVF) » app allows you to easily find information on sold properties from the Direction générale des finances publiques base."
+          button: "Visit the « Demandes de valeur foncière (DVF) » app"
+        fr:
+          title: "Vous cherchez le prix de vente d’un bien immobilier ou d’un terrain ?"
+          message: "L’application « Données de valeur foncière (DVF) » vous permet d’accéder à une information claire sur les biens vendus issus de la base de la Direction générale des finances publiques."
+          button: "Consulter l’application « Données de valeur foncière (DVF) »"
 -
   source: https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres-geolocalisees/
   recommendations:
     -
-      id: https://www.data.gouv.fr/fr/reuses/explorateur-de-donnees-de-valeur-fonciere-dvf/
+      id: https://app.dvf.etalab.gouv.fr/
       score: 50
-      type: reuse
+      type: external
+      messages:
+        en:
+          title: "Are you looking for a property’s sale price?"
+          message: "The « Données de valeur foncière (DVF) » app allows you to easily find information on sold properties from the Direction générale des finances publiques base."
+          button: "Visit the « Demandes de valeur foncière (DVF) » app"
+        fr:
+          title: "Vous cherchez le prix de vente d’un bien immobilier ou d’un terrain ?"
+          message: "L’application « Données de valeur foncière (DVF) » vous permet d’accéder à une information claire sur les biens vendus issus de la base de la Direction générale des finances publiques."
+          button: "Consulter l’application « Données de valeur foncière (DVF) »"
       
 # SIRET/SIREN -> reuse annuaire des entreprises
 -
@@ -79,6 +97,384 @@
           title: "Vous cherchez votre numéro SIRET ?"
           message: "L'Annuaire des Entreprises vous permet de facilement retrouver des numéros de SIRET depuis la base de l'INSEE."
           button: "Consulter l'Annuaire des Entreprises"
+          
+# Entrepreneurs du spectacle vivant --> Annuaire des Entreprises
+-
+  source: https://www.data.gouv.fr/fr/datasets/declarations-des-entrepreneurs-de-spectacles-vivants/
+  recommendations:
+    -
+      id: https://annuaire-entreprises.data.gouv.fr/lp/entrepreneur-spectacles-vivants
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for a live performance contractor?"
+          message: "L’Annuaire des Entreprises allows you to easily find information on the declarations and receipts of entertainment contractors in France."
+          button: "Visit l’Annuaire des Entreprises"
+        fr:
+          title: "Vous recherchez un entrepreneur ou une entrepreneure de spectacles vivants ?"
+          message: "L’Annuaire des Entreprises vous permet de retrouver facilement des informations sur les déclarations et les récépissés des entrepreneurs de spectacles en France."
+          button: "Consulter l’Annuaire des Entreprises"
+
+# Données COVID-19 --> Dashboard de suivi de l'épidémie de COVID-19
+-
+  source: https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/
+  recommendations:
+    -
+      id: https://www.gouvernement.fr/info-coronavirus/carte-et-donnees
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you want to monitor the COVID-19 pandemic evolution?"
+          message: "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation."
+          button: "Visit the COVID-19 pandemic monitoring dashboard"
+        fr:
+          title: "Vous souhaitez suivre l’évolution de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord de suivi de l’épidémie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l’évolution de la situation sanitaire."
+          button: "Consulter le tableau de bord de suivi de l’épidémie de COVID-19"
+
+-
+  source: https://www.data.gouv.fr/fr/datasets/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/
+  recommendations:
+    -
+      id: https://www.gouvernement.fr/info-coronavirus/carte-et-donnees
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you want to monitor the COVID-19 pandemic evolution?"
+          message: "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation."
+          button: "Visit the COVID-19 pandemic monitoring dashboard"
+        fr:
+          title: "Vous souhaitez suivre l’évolution de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord de suivi de l’épidémie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l’évolution de la situation sanitaire."
+          button: "Consulter le tableau de bord de suivi de l’épidémie de COVID-19"
+ 
+ -
+  source: https://www.data.gouv.fr/fr/datasets/old-donnees-relatives-aux-tests-de-depistage-de-covid-19-realises-en-laboratoire-de-ville/
+  recommendations:
+    -
+      id: https://www.gouvernement.fr/info-coronavirus/carte-et-donnees
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you want to monitor the COVID-19 pandemic evolution?"
+          message: "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation."
+          button: "Visit the COVID-19 pandemic monitoring dashboard"
+        fr:
+          title: "Vous souhaitez suivre l’évolution de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord de suivi de l’épidémie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l’évolution de la situation sanitaire."
+          button: "Consulter le tableau de bord de suivi de l’épidémie de COVID-19"
+  
+  -
+  source: https://www.data.gouv.fr/fr/datasets/transferts-de-patients-atteints-de-covid-19/
+  recommendations:
+    -
+      id: https://www.gouvernement.fr/info-coronavirus/carte-et-donnees
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you want to monitor the COVID-19 pandemic evolution?"
+          message: "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation."
+          button: "Visit the COVID-19 pandemic monitoring dashboard"
+        fr:
+          title: "Vous souhaitez suivre l’évolution de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord de suivi de l’épidémie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l’évolution de la situation sanitaire."
+          button: "Consulter le tableau de bord de suivi de l’épidémie de COVID-19"
+   
+  -
+  source: https://www.data.gouv.fr/fr/datasets/donnees-de-la-carte-de-vigilance-covid-19/
+  recommendations:
+    -
+      id: https://www.gouvernement.fr/info-coronavirus/carte-et-donnees
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you want to monitor the COVID-19 pandemic evolution?"
+          message: "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation."
+          button: "Visit the COVID-19 pandemic monitoring dashboard"
+        fr:
+          title: "Vous souhaitez suivre l’évolution de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord de suivi de l’épidémie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l’évolution de la situation sanitaire."
+          button: "Consulter le tableau de bord de suivi de l’épidémie de COVID-19"
+ 
+ -
+  source: https://www.data.gouv.fr/fr/datasets/lieux-de-vaccination-contre-la-covid-19/
+  recommendations:
+    -
+      id: https://www.gouvernement.fr/info-coronavirus/carte-et-donnees
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you want to monitor the COVID-19 pandemic evolution?"
+          message: "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation."
+          button: "Visit the COVID-19 pandemic monitoring dashboard"
+        fr:
+          title: "Vous souhaitez suivre l’évolution de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord de suivi de l’épidémie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l’évolution de la situation sanitaire."
+          button: "Consulter le tableau de bord de suivi de l’épidémie de COVID-19"
+ 
+ -
+  source: https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+  recommendations:
+    -
+      id: https://www.gouvernement.fr/info-coronavirus/carte-et-donnees
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you want to monitor the COVID-19 pandemic evolution?"
+          message: "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation."
+          button: "Visit the COVID-19 pandemic monitoring dashboard"
+        fr:
+          title: "Vous souhaitez suivre l’évolution de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord de suivi de l’épidémie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l’évolution de la situation sanitaire."
+          button: "Consulter le tableau de bord de suivi de l’épidémie de COVID-19"
+  
+  -
+  source: https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-stocks-des-doses-de-vaccins-contre-la-covid-19/
+  recommendations:
+    -
+      id: https://www.gouvernement.fr/info-coronavirus/carte-et-donnees
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you want to monitor the COVID-19 pandemic evolution?"
+          message: "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation."
+          button: "Visit the COVID-19 pandemic monitoring dashboard"
+        fr:
+          title: "Vous souhaitez suivre l’évolution de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord de suivi de l’épidémie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l’évolution de la situation sanitaire."
+          button: "Consulter le tableau de bord de suivi de l’épidémie de COVID-19"
+  
+  -
+  source: https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-livraisons-de-vaccins-contre-la-covid-19/
+  recommendations:
+    -
+      id: https://www.gouvernement.fr/info-coronavirus/carte-et-donnees
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you want to monitor the COVID-19 pandemic evolution?"
+          message: "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation."
+          button: "Visit the COVID-19 pandemic monitoring dashboard"
+        fr:
+          title: "Vous souhaitez suivre l’évolution de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord de suivi de l’épidémie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l’évolution de la situation sanitaire."
+          button: "Consulter le tableau de bord de suivi de l’épidémie de COVID-19"
+ 
+ -
+  source: https://www.data.gouv.fr/fr/datasets/donnees-des-rendez-vous-pris-dans-des-centres-de-vaccination-contre-la-covid-19/
+  recommendations:
+    -
+      id: https://www.gouvernement.fr/info-coronavirus/carte-et-donnees
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you want to monitor the COVID-19 pandemic evolution?"
+          message: "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation."
+          button: "Visit the COVID-19 pandemic monitoring dashboard"
+        fr:
+          title: "Vous souhaitez suivre l’évolution de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord de suivi de l’épidémie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l’évolution de la situation sanitaire."
+          button: "Consulter le tableau de bord de suivi de l’épidémie de COVID-19"
+
+# Données rappels de produits alimentaires et non alimentaires --> Rappel Conso
+-
+  source: https://www.data.gouv.fr/fr/datasets/signalconso/
+  recommendations:
+    -
+      id: https://rappel.conso.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to find out about food and non-food product recalls?"
+          message: "Signal Conso allows you to easily find information on recalled products."
+          button: "Visit Signal Conso"
+        fr:
+          title: "Vous souhaitez vous renseigner sur les rappels de produits alimentaires et non alimentaires ?"
+          message: "Signal Conso vous permet de consulter facilement les informations sur les produits rappelés."
+          button: "Consulter Signal Conso"
+ 
+# Cadastre minier --> Camino
+-
+  source: https://www.data.gouv.fr/fr/datasets/cadastre-minier/
+  recommendations:
+    -
+      id: https://camino.beta.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for information on mining titles and their characteristics?"
+          message: "Camino allows you to find information on mining titles and follow current projects on a dashboard."
+          button: "Visit Camino"
+        fr:
+          title: "Vous voulez consulter les titres miniers et leurs caractéristiques ?"
+          message: "Camino vous permet de retrouver les informations sur les titres miniers et de suivre les projets en cours sur un tableau de bord."
+          button: "Consulter Camino"
+
+# Aides aux entreprises dans le contexte du COVID-19 --> Dashboard des aides aux entreprises
+-
+  source: https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19/
+  recommendations:
+    -
+      id: https://aides-entreprises.data.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to visualize the support measures for businesses implemented by the Government during the COVID-19 pandemic?"
+          message: "The « aides aux entreprises attribuées dans le cadre de l’épidémie de COVID-19 » dashboard allows you to easily find out about the solidarity fund, state-guaranteed loans, direct state loans, etc."
+          button: "Visit the « aides aux entreprises » dashboard"
+        fr:
+          title: "Vous souhaitez visualiser les mesures de soutien aux entreprises mises en place par le Gouvernement dans le cadre de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord des aides aux entreprises attribuées dans le cadre de l’épidémie de COVID-19 vous permet de vous renseigner facilement sur le fonds de solidarité, les prêts garantis par l’Etat, les prêts directs de l’Etat, etc."
+          button: "Consulter le tableau de bord des aides aux entreprises"
+ 
+ -
+  source: https://www.data.gouv.fr/fr/datasets/donnees-relatives-au-fonds-de-solidarite-mis-en-place-dans-le-cadre-de-lepidemie-de-covid-19/
+  recommendations:
+    -
+      id: https://aides-entreprises.data.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to visualize the support measures for businesses implemented by the Government during the COVID-19 pandemic?"
+          message: "The « aides aux entreprises attribuées dans le cadre de l’épidémie de COVID-19 » dashboard allows you to easily find out about the solidarity fund, state-guaranteed loans, direct state loans, etc."
+          button: "Visit the « aides aux entreprises » dashboard"
+        fr:
+          title: "Vous souhaitez visualiser les mesures de soutien aux entreprises mises en place par le Gouvernement dans le cadre de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord des aides aux entreprises attribuées dans le cadre de l’épidémie de COVID-19 vous permet de vous renseigner facilement sur le fonds de solidarité, les prêts garantis par l’Etat, les prêts directs de l’Etat, etc."
+          button: "Consulter le tableau de bord des aides aux entreprises"
+ 
+ -
+  source: https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-reports-decheances-fiscales-accordes-dans-le-cadre-de-lepidemie-de-covid-19/
+  recommendations:
+    -
+      id: https://aides-entreprises.data.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to visualize the support measures for businesses implemented by the Government during the COVID-19 pandemic?"
+          message: "The « aides aux entreprises attribuées dans le cadre de l’épidémie de COVID-19 » dashboard allows you to easily find out about the solidarity fund, state-guaranteed loans, direct state loans, etc."
+          button: "Visit the « aides aux entreprises » dashboard"
+        fr:
+          title: "Vous souhaitez visualiser les mesures de soutien aux entreprises mises en place par le Gouvernement dans le cadre de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord des aides aux entreprises attribuées dans le cadre de l’épidémie de COVID-19 vous permet de vous renseigner facilement sur le fonds de solidarité, les prêts garantis par l’Etat, les prêts directs de l’Etat, etc."
+          button: "Consulter le tableau de bord des aides aux entreprises"
+  
+  -
+  source: https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-aides-exceptionnelles-aux-artisans-et-commercants-dans-le-cadre-de-lepidemie-de-covid-19/
+  recommendations:
+    -
+      id: https://aides-entreprises.data.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to visualize the support measures for businesses implemented by the Government during the COVID-19 pandemic?"
+          message: "The « aides aux entreprises attribuées dans le cadre de l’épidémie de COVID-19 » dashboard allows you to easily find out about the solidarity fund, state-guaranteed loans, direct state loans, etc."
+          button: "Visit the « aides aux entreprises » dashboard"
+        fr:
+          title: "Vous souhaitez visualiser les mesures de soutien aux entreprises mises en place par le Gouvernement dans le cadre de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord des aides aux entreprises attribuées dans le cadre de l’épidémie de COVID-19 vous permet de vous renseigner facilement sur le fonds de solidarité, les prêts garantis par l’Etat, les prêts directs de l’Etat, etc."
+          button: "Consulter le tableau de bord des aides aux entreprises"
+  
+  -
+  source: https://www.data.gouv.fr/fr/datasets/aide-exceptionnelle-cpsti-rci-covid-19/
+  recommendations:
+    -
+      id: https://aides-entreprises.data.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to visualize the support measures for businesses implemented by the Government during the COVID-19 pandemic?"
+          message: "The « aides aux entreprises attribuées dans le cadre de l’épidémie de COVID-19 » dashboard allows you to easily find out about the solidarity fund, state-guaranteed loans, direct state loans, etc."
+          button: "Visit the « aides aux entreprises » dashboard"
+        fr:
+          title: "Vous souhaitez visualiser les mesures de soutien aux entreprises mises en place par le Gouvernement dans le cadre de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord des aides aux entreprises attribuées dans le cadre de l’épidémie de COVID-19 vous permet de vous renseigner facilement sur le fonds de solidarité, les prêts garantis par l’Etat, les prêts directs de l’Etat, etc."
+          button: "Consulter le tableau de bord des aides aux entreprises"
+  
+  -
+  source: https://www.data.gouv.fr/fr/datasets/donnees-relatives-au-dispositif-dactivite-partielle-mis-en-oeuvre-dans-le-cadre-de-lepidemie-de-covid-19/
+  recommendations:
+    -
+      id: https://aides-entreprises.data.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to visualize the support measures for businesses implemented by the Government during the COVID-19 pandemic?"
+          message: "The « aides aux entreprises attribuées dans le cadre de l’épidémie de COVID-19 » dashboard allows you to easily find out about the solidarity fund, state-guaranteed loans, direct state loans, etc."
+          button: "Visit the « aides aux entreprises » dashboard"
+        fr:
+          title: "Vous souhaitez visualiser les mesures de soutien aux entreprises mises en place par le Gouvernement dans le cadre de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord des aides aux entreprises attribuées dans le cadre de l’épidémie de COVID-19 vous permet de vous renseigner facilement sur le fonds de solidarité, les prêts garantis par l’Etat, les prêts directs de l’Etat, etc."
+          button: "Consulter le tableau de bord des aides aux entreprises"
+
+# Agribalyse --> reuse de l'ADEME
+-
+  source: https://www.data.gouv.fr/fr/datasets/agribalyse-3-1-synthese/
+  recommendations:
+    -
+      id: https://agribalyse.ademe.fr/app
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know more about the environmental impact of food?"
+          message: "The Agribalyse app allows you to explore the ADEME base and simply visualize the environmental score and impact of products."
+          button: "Visit the Agribalyse app"
+        fr:
+          title: "Vous voulez vous renseigner sur l’impact environnemental de votre alimentation ?"
+          message: "L’application Agribalyse permet d’explorer la base de l’ADEME et de visualiser facilement le score environnemental et l’impact des produits alimentaires."
+          button: "Consulter l’application Agribalyse"
+-
+  source: https://www.data.gouv.fr/fr/datasets/agribalyse-3-1-detail-par-ingredient/
+  recommendations:
+    -
+      id: https://agribalyse.ademe.fr/app
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know more about the environmental impact of food?"
+          message: "The Agribalyse app allows you to explore the ADEME base and simply visualize the environmental score and impact of products."
+          button: "Visit the Agribalyse app"
+        fr:
+          title: "Vous voulez vous renseigner sur l’impact environnemental de votre alimentation ?"
+          message: "L’application Agribalyse permet d’explorer la base de l’ADEME et de visualiser facilement le score environnemental et l’impact des produits alimentaires."
+          button: "Consulter l’application Agribalyse"
+-
+  source: https://www.data.gouv.fr/fr/datasets/agribalyse-3-1-detail-par-etape/
+  recommendations:
+    -
+      id: https://agribalyse.ademe.fr/app
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know more about the environmental impact of food?"
+          message: "The Agribalyse app allows you to explore the ADEME base and simply visualize the environmental score and impact of products."
+          button: "Visit the Agribalyse app"
+        fr:
+          title: "Vous voulez vous renseigner sur l’impact environnemental de votre alimentation ?"
+          message: "L’application Agribalyse permet d’explorer la base de l’ADEME et de visualiser facilement le score environnemental et l’impact des produits alimentaires."
+          button: "Consulter l’application Agribalyse"
       
 # CPSTI Etalab <-> ACOSS
 -

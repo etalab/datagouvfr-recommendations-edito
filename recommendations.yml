@@ -426,6 +426,352 @@
           message: "Le tableau de bord des aides aux entreprises attribuées dans le cadre de l’épidémie de COVID-19 vous permet de vous renseigner facilement sur le fonds de solidarité, les prêts garantis par l’Etat, les prêts directs de l’Etat, etc."
           button: "Consulter le tableau de bord des aides aux entreprises"
 
+# Dashboard explore prix carburants sur les jdd officiels
+
+- 
+  source: https://www.data.gouv.fr/fr/datasets/prix-des-carburants-en-france-flux-instantane/
+  recommendations:
+    -
+      id: https://explore.data.gouv.fr/prix-carburants
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for a nearby gas station with the cheapest fuel?"
+          message: "L’Exploration des prix du carburant allows you to find out, in real time, the availability of fuel and the prices charged at gas stations."
+          button: "Visit « l’Exploration des prix du carburant »"
+        fr:
+          title: "Vous cherchez une station-service à proximité qui propose le carburant le moins cher ?"
+          message: "L’Exploration des prix du carburant vous permet de connaître, en temps réel, la disponibilité des carburants et les prix pratiqués dans les stations-service."
+          button: "Voir « l’Exploration des prix du carburant »"
+- 
+  source: https://www.data.gouv.fr/fr/datasets/prix-des-carburants-en-france-flux-quotidien/
+  recommendations:
+    -
+      id: https://explore.data.gouv.fr/prix-carburants
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for a nearby gas station with the cheapest fuel?"
+          message: "L’Exploration des prix du carburant allows you to find out, in real time, the availability of fuel and the prices charged at gas stations."
+          button: "Visit « l’Exploration des prix du carburant »"
+        fr:
+          title: "Vous cherchez une station-service à proximité qui propose le carburant le moins cher ?"
+          message: "L’Exploration des prix du carburant vous permet de connaître, en temps réel, la disponibilité des carburants et les prix pratiqués dans les stations-service."
+          button: "Voir « l’Exploration des prix du carburant »"
+          
+# Référenciel de l'organisation administrative de l'Etat --> Annuaire de l'administration de Service Public
+
+- 
+  source: https://www.data.gouv.fr/fr/datasets/referentiel-de-lorganisation-administrative-de-letat/
+  recommendations:
+    -
+      id: https://lannuaire.service-public.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for a public service, an administration or a contact point?"
+          message: "L’Annuaire de l’administration allows you to easily find all the contacts for your relations with public services (town hall, prefecture, ministry, etc.)."
+          button: "Visit « l’Annuaire de l’administration »"
+        fr:
+          title: "Vous cherchez un service public, une administration ou un contact ?"
+          message: "L’Annuaire de l’administration vous permet de retrouver facilement tous les contacts pour vos relations avec les services publics (mairie, préfecture, ministère, etc.)."
+          button: "Consulter « l’Annuaire de l’administration »"
+- 
+  source: https://www.data.gouv.fr/fr/datasets/service-public-fr-annuaire-de-l-administration-base-de-donnees-locales/
+  recommendations:
+    -
+      id: https://lannuaire.service-public.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for a public service, an administration or a contact point?"
+          message: "L’Annuaire de l’administration allows you to easily find all the contacts for your relations with public services (town hall, prefecture, ministry, etc.)."
+          button: "Visit « l’Annuaire de l’administration »"
+        fr:
+          title: "Vous cherchez un service public, une administration ou un contact ?"
+          message: "L’Annuaire de l’administration vous permet de retrouver facilement tous les contacts pour vos relations avec les services publics (mairie, préfecture, ministère, etc.)."
+          button: "Consulter « l’Annuaire de l’administration »"
+
+# Mon réseau mobile --> Reuse de l'ARCEP
+
+- 
+  source: https://www.data.gouv.fr/fr/datasets/mon-reseau-mobile/
+  recommendations:
+    -
+      id: https://monreseaumobile.arcep.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to compare mobile operators in terms of coverage and quality of service?"
+          message: "Mon réseau mobile allows you to visualise and get information on mobile coverage as well as quality of service in France."
+          button: "Visit « Mon réseau mobile »"
+        fr:
+          title: "Vous souhaitez comparer les opérateurs mobiles en matière de couverture et de qualité de service ?"
+          message: "Mon réseau mobile vous permet de visualiser et de connaître la couverture mobile et la qualité de service en France."
+          button: "Consulter « Mon réseau mobile »"
+
+# Carte fibre --> Reuse de l'ARCEP
+
+- 
+  source: https://www.data.gouv.fr/fr/datasets/le-marche-du-haut-et-tres-haut-debit-fixe-deploiements/
+  recommendations:
+    -
+      id: https://cartefibre.arcep.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know if fiber is available at an address?"
+          message: "Carte fibre allows you to view the status of fiber deployments as well as deployment forecasts in a given geographic area."
+          button: "Visit « Carte fibre »"
+        fr:
+          title: "Vous souhaitez savoir si la fibre est disponible à une adresse ?"
+          message: "Carte fibre vous permet de visualiser l’état d’avancement des déploiements de la fibre optique ainsi que les prévisions de déploiement dans une zone géographique donnée."
+          button: "Consulter « Carte fibre »"
+
+# Ma connexion internet --> Reuse de l'ARCEP
+
+- 
+  source: https://www.data.gouv.fr/fr/datasets/ma-connexion-internet/
+  recommendations:
+    -
+      id: https://maconnexioninternet.arcep.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know which fixed internet technologies and speeds are available at an address?"
+          message: "Ma connexion internet allows you to easily find information on the speeds offered in France by technology and operator."
+          button: "Visit « Ma connexion internet »"
+        fr:
+          title: "Vous souhaitez savoir quelles sont les technologies et les débits de l’internet fixe disponibles à une adresse ?"
+          message: "Ma connexion internet vous permet de retrouver facilement les informations sur les débits proposés en France par technologie et opérateurs."
+          button: "Consulter « Ma connexion internet »"
+
+# Parcelles en BIO --> CartoBio
+
+- 
+  source: https://www.data.gouv.fr/fr/datasets/parcelles-en-agriculture-biologique-ab-declarees-a-la-pac/
+  recommendations:
+    -
+      id: https://www.agencebio.org/cartobio/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for plots of land cultivated in organic agriculture?"
+          message: "Cartobio allows you to locate and get information on the plots of land that are managed in organic agriculture."
+          button: "Visit « Cartobio »"
+        fr:
+          title: "Vous cherchez des parcelles cultivées en agriculture biologique ?"
+          message: "Cartobio vous permet de localiser et de vous informer sur les parcelles conduites en agriculture biologique."
+          button: "Consulter « Cartobio »"
+
+# Base carbone --> Reuse de l'ADEME
+
+- 
+  source: https://www.data.gouv.fr/fr/datasets/base-carbone-r-1/
+  recommendations:
+    -
+      id: https://impactco2.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know the impact on the climate of your everyday life objects and behaviors?"
+          message: "« Impact CO2 » allows you to research the emissions required to manufacture and consome the objects that surround you."
+          button: "Visit « Impact CO2 »"
+        fr:
+          title: "Vous souhaitez connaître l’impact sur le climat des objets et des gestes de votre quotidien ?"
+          message: "« Impact CO2 » vous permet de rechercher les émissions nécessaires pour fabriquer et consommer les objets qui vous entourent."
+          button: "Consulter « Impact CO2 »"
+
+# Alim'confiance --> Reuse du MAA
+
+- 
+  source: https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/
+  recommendations:
+    -
+      id: https://www.alim-confiance.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know about the level of hygiene of your food production, processing and distribution establishments?"
+          message: "Alim’confiance allows you to easily check the results of official food safety controls."
+          button: "Visit « Impact CO2 »"
+        fr:
+          title: "Vous souhaitez vous renseigner sur le niveau d’hygiène des établissements de production, de transformation et de distribution de vos produits alimentaires ?"
+          message: "Alim’confiance vous permet de consulter facilement les résultats des contrôles officiels réalisés en matière de sécurité sanitaire des aliments."
+          button: "Visit « Alim’confiance »"
+
+# Registre des copros --> Annuaire de l'Anah
+
+- 
+  source: https://www.data.gouv.fr/fr/datasets/registre-national-dimmatriculation-des-coproprietes/
+  recommendations:
+    -
+      id: https://www.registre-coproprietes.gouv.fr/annuaire
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for information on a condominium?"
+          message: "L’Annuaire des copropriétés allows you to easily find informatoin on condominiums in France."
+          button: "Visit « l’Annuaire des copropriétés »"
+        fr:
+          title: "Vous cherchez une information sur une copropriété ?"
+          message: "L’Annuaire des copropriétés vous permet de vous renseigner facilement sur les copropriétés en France."
+          button: "Consulter « l’Annuaire des copropriétés »"
+
+# Accessibilité des ERP --> AccesLibre
+
+- 
+  source: https://www.data.gouv.fr/fr/datasets/accessibilite-des-etablissements-recevant-du-public-erp-pour-les-personnes-en-situation-de-handicap/
+  recommendations:
+    -
+      id: https://acceslibre.beta.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to check the accessibility of a given place?"
+          message: "AccesLibre allows you to easily find out about the accessibility of establishments open to the public."
+          button: "Visit « AccesLibre »"
+        fr:
+          title: "Vous souhaitez vérifier l’accessibilité d’un lieu ?"
+          message: "AccesLibre vous permet de vous renseigner facilement sur l’accessibilité des établissements recevant du public (ERP)."
+          button: "Consulter « AccesLibre »"
+
+# Données covoit --> Observatoire national du covoiturage au quotidien
+
+- 
+  source: https://www.data.gouv.fr/fr/datasets/trajets-realises-en-covoiturage-registre-de-preuve-de-covoiturage/
+  recommendations:
+    -
+      id: https://observatoire.covoiturage.beta.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know more about carpooling practices in France?"
+          message: "L’Observatoire national du covoiturage au quotidien allows you to monitor the evolution of short distance carpooling practices."
+          button: "Visit « l’Observatoire national du covoiturage au quotidien »"
+        fr:
+          title: "Vous souhaitez vous renseigner sur les pratiques de covoiturage en France ?"
+          message: "L’Observatoire national du covoiturage au quotidien vous permet de suivre l’évolution des pratiques de covoiturage courte distance."
+          button: "Consulter « l’Observatoire national du covoiturage au quotidien »"
+          
+# Données aides aux collectivités --> Aides-territoires
+
+- 
+  source: https://www.data.gouv.fr/fr/datasets/aides-financieres-et-en-ingenierie-disponibles-pour-les-collectivites-territoriales-et-leurs-partenaires-locaux/
+  recommendations:
+    -
+      id: https://aides-territoires.beta.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Local authorities, are you looking for aid schemes to finance and support your local project?"
+          message: "Aides-territoires allows you to quickly identify the relevant aid schemes for your projects."
+          button: "Visit « Aides-territoires »"
+        fr:
+          title: "Collectivités, vous cherchez une aide pour financer et accompagner votre projet local ?"
+          message: "Aides-territoires vous permet d’identifier rapidement les aides pertinentes pour vos projets."
+          button: "Consulter « Aides-territoires »"
+
+# DPE --> Reuses de l'ADEME
+
+- 
+  source: https://www.data.gouv.fr/fr/datasets/dpe-logements-existants-depuis-juillet-2021/
+  recommendations:
+    -
+      id: https://data.ademe.fr/applications/dpe-v2-logements-existants-classes-energetiques?Date_%C3%A9tablissement_DPE=%222021-07-01%22,%222023-03-20%22&lat=46.196865787490935&lng=0.08662945559979107&zoom=3.5845316703558168
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for the « DPE » or « GES » label of an existing dwelling (since July 2021)?"
+          message: "The « visualisation des DPE des logements existants » allows you to easily find information on their energy performance diagnoses."
+          button: "View the « visualisation des DPE des logements existants »"
+        fr:
+          title: "Vous cherchez l’étiquette DPE ou GES d’un logement existant (depuis juillet 2021) ?"
+          message: "La visualisation des DPE des logements existants vous permet de retrouver facilement les informations sur leurs diagnostics de performance énergétique."
+          button: "Voir la visualisation des DPE des logements existants"
+- 
+  source: https://www.data.gouv.fr/fr/datasets/dpe-logements-neufs-depuis-juillet-2021/
+  recommendations:
+    -
+      id: https://data.ademe.fr/applications/dpe-v2-logements-neufs-etiquettes-energie?Date_%C3%A9tablissement_DPE=%222021-07-01%22,%222023-03-20%22
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for the « DPE » or « GES » label of a new dwelling (since July 2021)?"
+          message: "The « visualisation des DPE des logements neufs » allows you to easily find information on their energy performance diagnoses."
+          button: "View the « visualisation des DPE des logements neufs »"
+        fr:
+          title: "Vous cherchez l’étiquette DPE ou GES d’un logement neuf (depuis juillet 2021) ?"
+          message: "La visualisation des DPE des logements neufs vous permet de retrouver facilement les informations sur leurs diagnostics de performance énergétique."
+          button: "Voir la visualisation des DPE des logements neufs"
+- 
+  source: https://www.data.gouv.fr/fr/datasets/dpe-tertiaire-depuis-juillet-2021/
+  recommendations:
+    -
+      id: https://data.ademe.fr/applications/dpe-v2-tertiaire-classes-energetiques?Date_%C3%A9tablissement_DPE=%222021-07-01%22,%222023-03-20%22
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for the « DPE » or « GES » label of tertiary buildings (since July 2021)?"
+          message: "The « visualisation des DPE des bâtiments tertiaires » allows you to easily find information on their energy performance diagnoses."
+          button: "View the « visualisation des DPE des bâtiments tertiaires »"
+        fr:
+          title: "Vous cherchez l’étiquette DPE ou GES d’un bâtiment tertiaire (depuis juillet 2021) ?"
+          message: "La visualisation des DPE des bâtiments tertiaires vous permet de retrouver facilement les informations sur leurs diagnostics de performance énergétique."
+          button: "Voir la visualisation des DPE des bâtiments tertiaires"
+
+# Données éCO2mix --> Application éCO2mix
+
+- 
+  source: https://www.data.gouv.fr/fr/datasets/donnees-eco2mix-nationales-temps-reel-1/
+  recommendations:
+    -
+      id: https://www.rte-france.com/eco2mix
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to follow electricity consumption and production in France?"
+          message: "The éCO2mix app allows you to know, in real time, the consumption and production of electricity in the country."
+          button: "Visit the éCO2mix app"
+        fr:
+          title: "Vous souhaitez suivre la consommation et la production d’électricité en France ?"
+          message: "L’application éCO2mix vous permet de connaître, en temps réel, la consommation et la production d’électricité réalisés."
+          button: "Consulter l’application éCO2mix"
+- 
+  source: https://www.data.gouv.fr/fr/datasets/donnees-eco2mix-regionales-temps-reel-1/
+  recommendations:
+    -
+      id: https://www.rte-france.com/eco2mix
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to follow electricity consumption and production in France?"
+          message: "The éCO2mix app allows you to know, in real time, the consumption and production of electricity in the country."
+          button: "Visit the éCO2mix app"
+        fr:
+          title: "Vous souhaitez suivre la consommation et la production d’électricité en France ?"
+          message: "L’application éCO2mix vous permet de connaître, en temps réel, la consommation et la production d’électricité réalisés."
+          button: "Consulter l’application éCO2mix"
+
 # Agribalyse --> reuse de l'ADEME
 -
   source: https://www.data.gouv.fr/fr/datasets/agribalyse-3-1-synthese/
@@ -498,20 +844,3 @@
       id: https://www.data.gouv.fr/fr/reuses/moteur-de-recherche-des-organismes-de-formation/
       score: 50
       type: reuse
-
-# Dashboard explore prix carburants sur les jdd officiels
-
-- 
-  source: https://www.data.gouv.fr/fr/datasets/prix-des-carburants-en-france-flux-instantane/
-  recommendations:
-  -
-    id: https://www.data.gouv.fr/fr/reuses/visualisation-des-donnees-sur-les-prix-des-carburants/
-    score: 50
-    type: reuse
-- 
-  source: https://www.data.gouv.fr/fr/datasets/prix-des-carburants-en-france-flux-quotidien/
-  recommendations:
-  -
-    id: https://www.data.gouv.fr/fr/reuses/visualisation-des-donnees-sur-les-prix-des-carburants/
-    score: 50
-    type: reuse

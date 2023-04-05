@@ -97,6 +97,24 @@
           title: "Vous cherchez votre numéro SIRET ?"
           message: "L'Annuaire des Entreprises vous permet de facilement retrouver des numéros de SIRET depuis la base de l'INSEE."
           button: "Consulter l'Annuaire des Entreprises"
+
+# Organismes de formation - certifications Qualiopi -> reuse annuaire des entreprises
+-
+  source: https://www.data.gouv.fr/fr/datasets/liste-publique-des-organismes-de-formation-l-6351-7-1-du-code-du-travail/
+  recommendations:
+    -
+      id: https://annuaire-entreprises.data.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know whether a training organisation is « Qualiopi » certified?"
+          message: "L’Annuaire des Entreprises allows you to easily check whether a structure is « Qualiopi » certified, in the « Labels and certificates » tab."
+          button: "Visit l’Annuaire des Entreprises"
+        fr:
+          title: "Vous souhaitez savoir si un organisme de formation est certifié Qualiopi ?"
+          message: "L’Annuaire des Entreprises vous permet de vérifier facilement si une structure est certifiée Qualiopi, dans l’onglet « Labels et certificats »."
+          button: "Consulter l’Annuaire des Entreprises"
           
 # Entrepreneurs du spectacle vivant --> Annuaire des Entreprises
 -
@@ -136,6 +154,56 @@
 
 -
   source: https://www.data.gouv.fr/fr/datasets/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/
+  recommendations:
+    -
+      id: https://www.gouvernement.fr/info-coronavirus/carte-et-donnees
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you want to monitor the COVID-19 pandemic evolution?"
+          message: "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation."
+          button: "Visit the COVID-19 pandemic monitoring dashboard"
+        fr:
+          title: "Vous souhaitez suivre l’évolution de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord de suivi de l’épidémie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l’évolution de la situation sanitaire."
+          button: "Consulter le tableau de bord de suivi de l’épidémie de COVID-19"
+-
+  source: https://www.data.gouv.fr/fr/datasets/synthese-des-indicateurs-de-suivi-de-lepidemie-covid-19/
+  recommendations:
+    -
+      id: https://www.gouvernement.fr/info-coronavirus/carte-et-donnees
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you want to monitor the COVID-19 pandemic evolution?"
+          message: "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation."
+          button: "Visit the COVID-19 pandemic monitoring dashboard"
+        fr:
+          title: "Vous souhaitez suivre l’évolution de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord de suivi de l’épidémie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l’évolution de la situation sanitaire."
+          button: "Consulter le tableau de bord de suivi de l’épidémie de COVID-19"
+
+-
+  source: https://www.data.gouv.fr/fr/datasets/indicateurs-de-suivi-de-lepidemie-de-covid-19/
+  recommendations:
+    -
+      id: https://www.gouvernement.fr/info-coronavirus/carte-et-donnees
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you want to monitor the COVID-19 pandemic evolution?"
+          message: "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation."
+          button: "Visit the COVID-19 pandemic monitoring dashboard"
+        fr:
+          title: "Vous souhaitez suivre l’évolution de l’épidémie de COVID-19 ?"
+          message: "Le tableau de bord de suivi de l’épidémie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l’évolution de la situation sanitaire."
+          button: "Consulter le tableau de bord de suivi de l’épidémie de COVID-19"
+
+-
+  source: https://www.data.gouv.fr/fr/datasets/old-taux-dincidence-de-lepidemie-de-covid-19/
   recommendations:
     -
       id: https://www.gouvernement.fr/info-coronavirus/carte-et-donnees

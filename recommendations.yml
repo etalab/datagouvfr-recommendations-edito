@@ -115,6 +115,24 @@
           title: "Vous souhaitez savoir si un organisme de formation est certifié Qualiopi ?"
           message: "L’Annuaire des Entreprises vous permet de vérifier facilement si une structure est certifiée Qualiopi, dans l’onglet « Labels et certificats »."
           button: "Consulter l’Annuaire des Entreprises"
+
+# Professionnels du bio --> Annuaire des entreprises
+-
+  source: https://www.data.gouv.fr/fr/datasets/professionnels-engages-en-bio/
+  recommendations:
+    -
+      id: https://annuaire-entreprises.data.gouv.fr/rechercher?terme=&cp_dep_label=&cp_dep_type=&cp_dep=&fn=&n=&dmin=&dmax=&type=&label=bio&etat=&sap=&naf=&nature_juridique=
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to check whether a professional is committed to organic farming and find out more about it?"
+          message: "L’Annuaire des Entreprises allows you to easily find information and certificates of organic farming."
+          button: "Visit l’Annuaire des Entreprises"
+        fr:
+          title: "Vous souhaitez vérifier qu’un professionnel est engagé en bio et vous renseigner à son sujet ?"
+          message: "L’Annuaire des Entreprises vous permet de retrouver facilement les informations et les certificats du bio."
+          button: "Consulter l’Annuaire des Entreprises"
           
 # Entrepreneurs du spectacle vivant --> Annuaire des Entreprises
 -

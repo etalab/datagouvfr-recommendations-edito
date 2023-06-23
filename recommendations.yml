@@ -409,6 +409,285 @@
           message: "Camino vous permet de retrouver les informations sur les titres miniers et de suivre les projets en cours sur un tableau de bord."
           button: "Consulter Camino"
 
+# Déchets --> Que faire de mes déchets
+-
+  source: https://www.data.gouv.fr/fr/datasets/que-faire-de-mes-dechets-produits/
+  recommendations:
+    -
+      id: https://quefairedemesdechets.ademe.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to find out where to dispose your waste?"
+          message: "« Que faire de mes déchets » offers solutions for all your waste and advice on how to produce less of it."
+          button: "Visit « Que faire de mes déchets »"
+        fr:
+          title: "Vous voulez vérifier où déposer vos déchets ?"
+          message: "« Que faire de mes déchets » vous propose des solutions pour tous vos déchets et des conseils pour en produire moins."
+          button: "Consulter « Que faire de mes déchets »"
+
+# Production et stockage d'électricité --> Dataviz de l'Agence ORE
+-
+  source: https://www.data.gouv.fr/fr/datasets/installations-de-production-delectricite-et-de-gaz/
+  recommendations:
+    -
+      id: https://www.agenceore.fr/datavisualisation/production-elec-par-territoire
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to get a better understanding of France’s energy mix?"
+          message: "Agence ORE’s tool enables you to visualise the different electricity production and storage facilities in France."
+          button: "View the map"
+        fr:
+          title: "Vous souhaitez mieux comprendre le mix énergétique national, ainsi que celui des régions et des départements ?"
+          message: "Une cartographie de l’Agence ORE vous permet de visualiser les différentes installations de production et de stockage d’électricité en France."
+          button: "Consulter la cartographie"
+
+# Friches --> Cartofriches
+-
+  source: https://www.data.gouv.fr/fr/datasets/sites-references-dans-cartofriches/
+  recommendations:
+    -
+      id: https://cartofriches.cerema.fr/cartofriches/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for wasteland in a given geographical area?"
+          message: "Cartofriches provides you with a national inventory of wasteland."
+          button: "Visit Cartofriches"
+        fr:
+          title: "Vous cherchez une friche dans une zone géographique donnée ?"
+          message: "Cartofriches vous propose un inventaire national des friches."
+          button: "Consulter Cartofriches"
+
+# Artificialisation des sols --> Carto du portal de l'artificialisation des sols
+-
+  source: https://www.data.gouv.fr/fr/datasets/consommation-despaces-2009-2021-portail-national-de-lartificialisation/
+  recommendations:
+    -
+      id: https://artificialisation.developpement-durable.gouv.fr/cartographie-artificialisation
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to get a better understanding of soil artificialisation in France?"
+          message: "A map provided by the portal of soil artificialisation allows you to view local land consumption data."
+          button: "View the map"
+        fr:
+          title: "Vous souhaitez mieux comprendre l’artificialisation des sols en France ?"
+          message: "Une carte proposée par le portail de l’artificialisation des sols vous permet de visualiser les données communales de consommation d’espaces."
+          button: "Consulter la carte"
+
+# Points d'injection de biométhane --> Dataviz de l'Agence ORE
+-
+  source: https://www.data.gouv.fr/fr/datasets/points-dinjection-de-biomethane-en-france-en-service/
+  recommendations:
+    -
+      id: https://www.agenceore.fr/datavisualisation/biomethane-par-territoire
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know where biomethane injection points are located?"
+          message: "Agence ORE’s map shows the different injection sites and the origin of the biomethane."
+          button: "View the map"
+        fr:
+          title: "Vous souhaitez connaître la localisation des points d’injection de biométhane ?"
+          message: "Une cartographie de l’Agence ORE vous permet de visualiser les différents sites d’injection et l’origine du biométhane."
+          button: "Consulter la cartographie"
+
+# Distributeurs de gaz et d'électricité --> Dataviz de l'Agence ORE
+- 
+  source: https://www.data.gouv.fr/fr/datasets/distributeurs-de-gaz-et-delectricite-par-commune/
+  recommendations:
+    -
+      id: https://www.agenceore.fr/datavisualisation/distributeurs-energie-france
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to find out about electricity and gas distributors?"
+          message: "Agence ORE’s map allows you to visualise them in a given territory."
+          button: "View the map"
+        fr:
+          title: "Vous souhaitez connaître les distributeurs d’électricité et de gaz ?"
+          message: "Une cartographie de l’Agence ORE vous permet de les visualiser pour un territoire donné."
+          button: "Consulter la cartographie"
+- 
+  source: https://www.data.gouv.fr/fr/datasets/referentiel-des-distributeurs-denergie/
+  recommendations:
+    -
+      id: https://www.agenceore.fr/datavisualisation/distributeurs-energie-france
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to find out about electricity and gas distributors?"
+          message: "Agence ORE’s map allows you to visualise them in a given territory."
+          button: "View the map"
+        fr:
+          title: "Vous souhaitez connaître les distributeurs d’électricité et de gaz ?"
+          message: "Une cartographie de l’Agence ORE vous permet de les visualiser pour un territoire donné."
+          button: "Consulter la cartographie"
+
+# Réseaux de gaz et d'électricité --> Cartographie de l'Agence ORE
+-
+  source: https://www.data.gouv.fr/fr/datasets/lignes-electriques-souterraines-moyenne-tension-hta/
+  recommendations:
+    -
+      id: https://www.agenceore.fr/datavisualisation/cartographie-reseaux
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know the location of gas and electricity networks?"
+          message: "Agence ORE’s map enables you to visualise the different electricity and gas distribution and transmission networks in a given area."
+          button: "View the map"
+        fr:
+          title: "Vous souhaitez connaître l’emplacement des réseaux de gaz et d’électricité ?"
+          message: "Une cartographie de l’Agence ORE vous permet de visualiser les différents réseaux de distribution et de transport d’électricité et de gaz sur un territoire donné."
+          button: "Consulter la cartographie"
+
+-
+  source: https://www.data.gouv.fr/fr/datasets/lignes-electriques-souterraines-basse-tension-bt/
+  recommendations:
+    -
+      id: https://www.agenceore.fr/datavisualisation/cartographie-reseaux
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know the location of gas and electricity networks?"
+          message: "Agence ORE’s map enables you to visualise the different electricity and gas distribution and transmission networks in a given area."
+          button: "View the map"
+        fr:
+          title: "Vous souhaitez connaître l’emplacement des réseaux de gaz et d’électricité ?"
+          message: "Une cartographie de l’Agence ORE vous permet de visualiser les différents réseaux de distribution et de transport d’électricité et de gaz sur un territoire donné."
+          button: "Consulter la cartographie"
+
+-
+  source: https://www.data.gouv.fr/fr/datasets/postes-source-et-postes-de-repartition-hta-hta-1/
+  recommendations:
+    -
+      id: https://www.agenceore.fr/datavisualisation/cartographie-reseaux
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know the location of gas and electricity networks?"
+          message: "Agence ORE’s map enables you to visualise the different electricity and gas distribution and transmission networks in a given area."
+          button: "View the map"
+        fr:
+          title: "Vous souhaitez connaître l’emplacement des réseaux de gaz et d’électricité ?"
+          message: "Une cartographie de l’Agence ORE vous permet de visualiser les différents réseaux de distribution et de transport d’électricité et de gaz sur un territoire donné."
+          button: "Consulter la cartographie"
+
+-
+  source: https://www.data.gouv.fr/fr/datasets/lignes-electriques-aeriennes-basse-tension-bt/
+  recommendations:
+    -
+      id: https://www.agenceore.fr/datavisualisation/cartographie-reseaux
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know the location of gas and electricity networks?"
+          message: "Agence ORE’s map enables you to visualise the different electricity and gas distribution and transmission networks in a given area."
+          button: "View the map"
+        fr:
+          title: "Vous souhaitez connaître l’emplacement des réseaux de gaz et d’électricité ?"
+          message: "Une cartographie de l’Agence ORE vous permet de visualiser les différents réseaux de distribution et de transport d’électricité et de gaz sur un territoire donné."
+          button: "Consulter la cartographie"
+
+-
+  source: https://www.data.gouv.fr/fr/datasets/lignes-electriques-aeriennes-moyenne-tension-hta/
+  recommendations:
+    -
+      id: https://www.agenceore.fr/datavisualisation/cartographie-reseaux
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know the location of gas and electricity networks?"
+          message: "Agence ORE’s map enables you to visualise the different electricity and gas distribution and transmission networks in a given area."
+          button: "View the map"
+        fr:
+          title: "Vous souhaitez connaître l’emplacement des réseaux de gaz et d’électricité ?"
+          message: "Une cartographie de l’Agence ORE vous permet de visualiser les différents réseaux de distribution et de transport d’électricité et de gaz sur un territoire donné."
+          button: "Consulter la cartographie"
+
+-
+  source: https://www.data.gouv.fr/fr/datasets/infrastructures-de-reseau-de-gaz/
+  recommendations:
+    -
+      id: https://www.agenceore.fr/datavisualisation/cartographie-reseaux
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know the location of gas and electricity networks?"
+          message: "Agence ORE’s map enables you to visualise the different electricity and gas distribution and transmission networks in a given area."
+          button: "View the map"
+        fr:
+          title: "Vous souhaitez connaître l’emplacement des réseaux de gaz et d’électricité ?"
+          message: "Une cartographie de l’Agence ORE vous permet de visualiser les différents réseaux de distribution et de transport d’électricité et de gaz sur un territoire donné."
+          button: "Consulter la cartographie"
+
+# Consommation d'énergie --> Dataviz de l'Agence ORE
+-
+  source: https://www.data.gouv.fr/fr/datasets/consommation-annuelle-delectricite-et-gaz-par-commune-et-par-secteur-dactivite/
+  recommendations:
+    -
+      id: https://www.agenceore.fr/datavisualisation/consommations-locales-energie
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to find out more about energy consumption in France?"
+          message: "Agence ORE’s map enables you to visualise electricity and gas consumption data, broken down by sector of activity."
+          button: "View the map"
+        fr:
+          title: "Vous souhaitez mieux connaître la consommation d’énergie en France ?"
+          message: "Une cartographie de l’Agence ORE vous permet de visualiser les données de consommation d’électricité et de gaz, réparties selon les secteurs d’activité."
+          button: "Consulter la cartographie"
+
+-
+  source: https://www.data.gouv.fr/fr/datasets/consommation-annuelle-delectricite-et-gaz-par-iris-et-par-secteur-dactivite/
+  recommendations:
+    -
+      id: https://www.agenceore.fr/datavisualisation/consommations-locales-energie
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to find out more about energy consumption in France?"
+          message: "Agence ORE’s map enables you to visualise electricity and gas consumption data, broken down by sector of activity."
+          button: "View the map"
+        fr:
+          title: "Vous souhaitez mieux connaître la consommation d’énergie en France ?"
+          message: "Une cartographie de l’Agence ORE vous permet de visualiser les données de consommation d’électricité et de gaz, réparties selon les secteurs d’activité."
+          button: "Consulter la cartographie"
+
+-
+  source: https://www.data.gouv.fr/fr/datasets/consommation-annuelle-delectricite-et-gaz-par-region-et-par-code-naf/
+  recommendations:
+    -
+      id: https://www.agenceore.fr/datavisualisation/consommations-locales-energie
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to find out more about energy consumption in France?"
+          message: "Agence ORE’s map enables you to visualise electricity and gas consumption data, broken down by sector of activity."
+          button: "View the map"
+        fr:
+          title: "Vous souhaitez mieux connaître la consommation d’énergie en France ?"
+          message: "Une cartographie de l’Agence ORE vous permet de visualiser les données de consommation d’électricité et de gaz, réparties selon les secteurs d’activité."
+          button: "Consulter la cartographie"
+
 # Aides aux entreprises dans le contexte du COVID-19 --> Dashboard des aides aux entreprises
 -
   source: https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19/
@@ -513,7 +792,6 @@
           button: "Consulter le tableau de bord des aides aux entreprises"
 
 # Dashboard explore prix carburants sur les jdd officiels
-
 - 
   source: https://www.data.gouv.fr/fr/datasets/prix-des-carburants-en-france-flux-instantane/
   recommendations:

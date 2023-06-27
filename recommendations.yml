@@ -427,6 +427,24 @@
           message: "« Que faire de mes déchets » vous propose des solutions pour tous vos déchets et des conseils pour en produire moins."
           button: "Consulter « Que faire de mes déchets »"
 
+# Structures France services --> Reuse ANCT
+-
+  source: https://www.data.gouv.fr/fr/datasets/liste-des-structures-labellisees-france-services/
+  recommendations:
+    -
+      id: https://anct-carto.github.io/france_services/?lat=46.403685&lng=-3.328573&z=5.550000000000001
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for your nearest France services?"
+          message: "The France services map allows you to find the France services nearest to an address, based on a search distance."
+          button: "View the France services map"
+        fr:
+          title: "Vous cherchez la structure France services la plus proche de chez vous ?"
+          message: "L’annuaire cartographique France services vous permet de trouver les France services les plus proches d’une adresse selon une distance de recherche."
+          button: "Consulter l’annuaire cartographique France services"
+
 # Production et stockage d'électricité --> Dataviz de l'Agence ORE
 -
   source: https://www.data.gouv.fr/fr/datasets/installations-de-production-delectricite-et-de-gaz/

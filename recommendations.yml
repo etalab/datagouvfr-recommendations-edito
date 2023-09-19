@@ -152,6 +152,132 @@
           message: "L’Annuaire des Entreprises vous permet de retrouver facilement des informations sur les déclarations et les récépissés des entrepreneurs de spectacles en France."
           button: "Consulter l’Annuaire des Entreprises"
 
+# Zone de revitalisation rurale --> Observatoire des territoires
+-
+  source: https://www.data.gouv.fr/fr/datasets/zones-de-revitalisation-rurale-zrr/
+  recommendations:
+    -
+      id: https://www.observatoire-des-territoires.gouv.fr/zonage-de-politiques-publiques
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know whether your city/town is eligible for the « Zone de revitalisation rurale » scheme?"
+          message: "The Observatoire des territoires offers a tool that allows you to visualise the zoning, and tells you whether or not your town/city is covered."
+          button: "See the tool developed by the Observatoire des territoires"
+        fr:
+          title: "Vous souhaitez savoir si votre commune est éligible au dispositif « Zone de revitalisation rurale » ?"
+          message: "L’Observatoire des territoires propose un outil qui vous permet de visualiser le zonage, et vous indique si votre commune est concernée ou non."
+          button: "Consulter l’outil de l’Observatoire des territoires"
+
+# Aide à finalité régionale --> Observatoire des territoires
+-
+  source: https://www.data.gouv.fr/fr/datasets/zones-daide-a-finalite-regionale-afr/
+  recommendations:
+    -
+      id: https://www.observatoire-des-territoires.gouv.fr/zonage-de-politiques-publiques
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know whether your city/town is eligible for the « Aide à finalité régionale » scheme?"
+          message: "The Observatoire des territoires offers a tool that allows you to visualise the zoning, and tells you whether or not your town/city is covered."
+          button: "See the tool developed by the Observatoire des territoires"
+        fr:
+          title: "Vous souhaitez savoir si votre commune est éligible au dispositif « Aide à finalité régionale » ?"
+          message: "L’Observatoire des territoires propose un outil qui vous permet de visualiser le zonage, et vous indique si votre commune est concernée ou non."
+          button: "Consulter l’outil de l’Observatoire des territoires"
+
+# Action coeur de ville --> Observatoire des territoires
+-
+  source: https://www.data.gouv.fr/fr/datasets/programme-action-coeur-de-ville/
+  recommendations:
+    -
+      id: https://www.observatoire-des-territoires.gouv.fr/zonage-de-politiques-publiques
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know whether your city/town is eligible for the « Action cœur de ville » scheme?"
+          message: "The Observatoire des territoires offers a tool that allows you to visualise the zoning, and tells you whether or not your town/city is covered."
+          button: "See the tool developed by the Observatoire des territoires"
+        fr:
+          title: "Vous souhaitez savoir si votre commune est éligible au dispositif « Action cœur de ville » ?"
+          message: "L’Observatoire des territoires propose un outil qui vous permet de visualiser le zonage, et vous indique si votre commune est concernée ou non."
+          button: "Consulter l’outil de l’Observatoire des territoires"
+
+# Communes loi montagne --> Observatoire des territoires
+-
+  source: https://www.data.gouv.fr/fr/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/
+  recommendations:
+    -
+      id: https://www.observatoire-des-territoires.gouv.fr/zonage-de-politiques-publiques
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know whether your city/town is covered by the « Loi Montagne »?"
+          message: "The Observatoire des territoires offers a tool that allows you to visualise the zoning, and tells you whether or not your town/city is covered."
+          button: "See the tool developed by the Observatoire des territoires"
+        fr:
+          title: "Vous souhaitez savoir si votre commune est concernée par la Loi Montagne ?"
+          message: "L’Observatoire des territoires propose un outil qui vous permet de visualiser le zonage, et vous indique si votre commune est concernée ou non."
+          button: "Consulter l’outil de l’Observatoire des territoires"
+
+# QPV --> Géoportail de l'IGN
+-
+  source: https://www.data.gouv.fr/fr/datasets/quartiers-prioritaires-de-la-politique-de-la-ville-qpv/
+  recommendations:
+    -
+      id: https://www.geoportail.gouv.fr/donnees/quartiers-prioritaires
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know whether a location is in a priority urban district (QPV)?"
+          message: "The IGN geoportal enables you to identify priority urban districts (QPV) based on an address."
+          button: "Visit the IGN geoportal"
+        fr:
+          title: "Vous souhaitez savoir si un lieu se situe en quartier prioritaire de la politique de la ville (QPV) ?"
+          message: "Le géoportail de l’IGN vous permet d’identifier les quartiers prioritaires de la politique de la ville (QPV) à partir d’une adresse."
+          button: "Consulter le géoportail de l’IGN"
+
+# RGE --> Annuaire des entreprises
+-
+  source: https://www.data.gouv.fr/fr/datasets/liste-des-entreprises-rge-1/
+  recommendations:
+    -
+      id: https://annuaire-entreprises.data.gouv.fr/rechercher?terme=&cp_dep_label=&cp_dep_type=&cp_dep=&fn=&n=&dmin=&dmax=&type=&label=rge&etat=&sap=&naf=&nature_juridique=&tranche_effectif_salarie=&categorie_entreprise
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to check whether your and/or a company has the RGE label?"
+          message: "The « Annuaire des Entreprises » makes it easy for you to find the certificates of RGE professionals."
+          button: "Visit « l’Annuaire des Entreprises »"
+        fr:
+          title: "Vous souhaitez vérifier qu’une ou que votre entreprise est bien labellisée RGE ?"
+          message: "L’Annuaire des Entreprises vous permet de retrouver facilement les certificats des professionnels RGE."
+          button: "Consulter l’Annuaire des Entreprises"
+
+# Liste des conventions collectives --> Code du travail numérique
+-
+  source: https://www.data.gouv.fr/fr/datasets/liste-des-conventions-collectives-par-entreprise-siret/
+  recommendations:
+    -
+      id: https://code.travail.gouv.fr/outils/convention-collective
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for your company's collective bargaining agreement?"
+          message: "The « Code du Travail numérique » lets you find and consult your company's collective bargaining agreement."
+          button: "Visit the « Code du Travail numérique »"
+        fr:
+          title: "Vous recherchez la convention collective de votre entreprise ?"
+          message: "Le Code du Travail numérique vous permet de trouver et de consulter la convention collective associée à votre entreprise."
+          button: "Consulter le Code du Travail numérique"
+
 # Données COVID-19 --> Dashboard de suivi de l'épidémie de COVID-19
 -
   source: https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/

@@ -224,23 +224,23 @@
           message: "L’Observatoire des territoires propose un outil qui vous permet de visualiser le zonage, et vous indique si votre commune est concernée ou non."
           button: "Consulter l’outil de l’Observatoire des territoires"
 
-# QPV --> Géoportail de l'IGN
+# QPV --> SIG Ville
 -
   source: https://www.data.gouv.fr/fr/datasets/quartiers-prioritaires-de-la-politique-de-la-ville-qpv/
   recommendations:
     -
-      id: https://www.geoportail.gouv.fr/donnees/quartiers-prioritaires
+      id: https://sig.ville.gouv.fr/
       score: 50
       type: external
       messages:
         en:
           title: "Are you seeking to know whether a location is in a priority urban district (QPV)?"
-          message: "The IGN geoportal enables you to identify priority urban districts (QPV) based on an address."
-          button: "Visit the IGN geoportal"
+          message: "The SIG-ville platform, developped by ANCT, enables you to identify priority urban districts (QPV) based on an address."
+          button: "Visit the SIG-ville platform"
         fr:
           title: "Vous souhaitez savoir si un lieu se situe en quartier prioritaire de la politique de la ville (QPV) ?"
-          message: "Le géoportail de l’IGN vous permet d’identifier les quartiers prioritaires de la politique de la ville (QPV) à partir d’une adresse."
-          button: "Consulter le géoportail de l’IGN"
+          message: "La plateforme SIG-ville, portée par l'ANCT, vous permet d’identifier les quartiers prioritaires de la politique de la ville (QPV) à partir d’une adresse."
+          button: "Consulter la plateforme SIG-ville"
 
 # RGE --> Annuaire des entreprises
 -

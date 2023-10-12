@@ -206,6 +206,24 @@
           message: "L’Observatoire des territoires propose un outil qui vous permet de visualiser le zonage, et vous indique si votre commune est concernée ou non."
           button: "Consulter l’outil de l’Observatoire des territoires"
 
+# Fichier des personnes décédées --> matchID
+-
+  source: https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/
+  recommendations:
+    -
+      id: https://deces.matchid.io/search
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for information on a deceased person?"
+          message: "matchID allows you to search through 26 million deaths since 1970."
+          button: "Visit matchID"
+        fr:
+          title: "Vous souhaitez trouver des informations sur une personne décédée ?"
+          message: "L’outil matchID vous permet de rechercher parmi 26 millions de décès depuis 1970."
+          button: "Consulter matchID"
+
 # Communes loi montagne --> Observatoire des territoires
 -
   source: https://www.data.gouv.fr/fr/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/

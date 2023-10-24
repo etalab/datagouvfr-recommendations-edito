@@ -98,6 +98,60 @@
           message: "L'Annuaire des Entreprises vous permet de facilement retrouver des numéros de SIRET depuis la base de l'INSEE."
           button: "Consulter l'Annuaire des Entreprises"
 
+# BDNB --> Gorenove
+-
+  source: https://www.data.gouv.fr/fr/datasets/base-de-donnees-nationale-des-batiments/
+  recommendations:
+    -
+      id: https://particulier.gorenove.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Would you like to find out more about a building?"
+          message: "The « Go-Rénove » service allows you to find the characteristics of over 27 million residential and commercial buildings."
+          button: "Visit Go-Rénove"
+        fr:
+          title: "Vous souhaitez vous informer sur un bâtiment ?"
+          message: "Le service Go-Rénove vous permet de retrouver les caractéristiques de plus de 27 millions de bâtiments, résidentiels ou tertiaires."
+          button: "Consulter Go-Rénove"
+
+# Annuaire de l'éducation nationale --> Annuaire du ministère
+-
+  source: https://www.data.gouv.fr/fr/datasets/annuaire-de-leducation/
+  recommendations:
+    -
+      id: https://www.education.gouv.fr/annuaire
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for information about a school?"
+          message: "The « Annuaire de l'éducation nationale » allows you to find information on primary schools, middle schools, high schools, etc."
+          button: "Visit the « Annuaire de l’éducation nationale »"
+        fr:
+          title: "Vous cherchez des informations sur un établissement scolaire ?"
+          message: "L’Annuaire de l’éducation nationale vous permet de trouver et de vous informer sur une école, un collège, un lycée, etc."
+          button: "Consulter l’Annuaire de l’éducation"
+
+# Service-Public "Vos droits et démarches" --> service-public.fr
+-
+  source: https://www.data.gouv.fr/fr/datasets/service-public-fr-guide-vos-droits-et-demarches-particuliers/
+  recommendations:
+    -
+      id: https://www.service-public.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you have a question about your rights or an administrative procedure?"
+          message: "Service-Public.fr provides you with the information you need and guides you through the process."
+          button: "Visit Service-Public.fr"
+        fr:
+          title: "Vous avez une question sur vos droits ou sur une démarche administrative ?"
+          message: "Service-Public.fr vous fournit les informations dont vous avez besoin et vous guide dans vos démarches."
+          button: "Consulter Service-Public.fr"
+
 # Organismes de formation - certifications Qualiopi -> reuse annuaire des entreprises
 -
   source: https://www.data.gouv.fr/fr/datasets/liste-publique-des-organismes-de-formation-l-6351-7-1-du-code-du-travail/

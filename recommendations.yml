@@ -116,6 +116,24 @@
           message: "Le service Go-Rénove vous permet de retrouver les caractéristiques de plus de 27 millions de bâtiments, résidentiels ou tertiaires."
           button: "Consulter Go-Rénove"
 
+# BAN --> adresse.data.gouv.fr
+-
+  source: https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/
+  recommendations:
+    -
+      id: https://adresse.data.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Would you like to search for an address in the National Address Database, or manage your own addresses?"
+          message: "The national address website « adresse.data.gouv.fr » references all addresses in France and make them usable for all."
+          button: "Visit adresse.data.gouv.fr"
+        fr:
+          title: "Vous souhaitez chercher une adresse dans la Base Adresse Nationale ou, pour les communes, gérer vos adresses ?"
+          message: "Le site national des adresses, adresse.data.gouv.fr, référence l’intégralité des adresses du territoire et les rend utilisables par toutes et tous."
+          button: "Consulter adresse.data.gouv.fr"
+
 # Annuaire de l'éducation nationale --> Annuaire du ministère
 -
   source: https://www.data.gouv.fr/fr/datasets/annuaire-de-leducation/

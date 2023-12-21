@@ -51,7 +51,7 @@
   source: https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/
   recommendations:
     -
-      id: https://app.dvf.etalab.gouv.fr/
+      id: https://explore.data.gouv.fr/immobilier
       score: 50
       type: external
       messages:
@@ -67,7 +67,7 @@
   source: https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres-geolocalisees/
   recommendations:
     -
-      id: https://app.dvf.etalab.gouv.fr/
+      id: https://explore.data.gouv.fr/immobilier
       score: 50
       type: external
       messages:

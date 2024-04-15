@@ -98,6 +98,24 @@
           message: "L'Annuaire des Entreprises vous permet de facilement retrouver des numéros de SIRET depuis la base de l'INSEE."
           button: "Consulter l'Annuaire des Entreprises"
 
+# Catalogue de data.gouv.fr -> Tableau de bord indicateurs data.gouv.fr
+-
+  source: https://www.data.gouv.fr/fr/datasets/catalogue-des-donnees-de-data-gouv-fr/
+  recommendations:
+    -
+      id: https://www.data.gouv.fr/fr/dashboard/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you want to keep track of the data.gouv.fr platform's statistics?"
+          message: "A dashboard provided by the data.gouv.fr team gives you an overview of the data.gouv.fr usage indicators."
+          button: "Visit the dashboard"
+        fr:
+          title: "Vous souhaitez suivre l'évolution des statistiques de la plateforme data.gouv.fr ?"
+          message: "Un tableau de bord proposé par data.gouv.fr vous permet de connaître les indicateurs d'usage de data.gouv.fr."
+          button: "Consulter le tableau de bord"
+
 # RNA --> Journal Officiel
 -
   source: https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/

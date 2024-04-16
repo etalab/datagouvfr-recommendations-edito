@@ -116,6 +116,24 @@
           message: "Un tableau de bord proposé par data.gouv.fr vous permet de connaître les indicateurs d'usage de data.gouv.fr."
           button: "Consulter le tableau de bord"
 
+# Jdd SILL --> SILL
+-
+  source: https://www.data.gouv.fr/fr/datasets/socle-interministeriel-de-logiciels-libres/
+  recommendations:
+    -
+      id: https://code.gouv.fr/sill
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for an open-source software?"
+          message: "The « Socle Interministériel de Logiciels Libres (SILL) » is a reference catalog of recommended open-source software for the French administration."
+          button: "Visit the « Socle Interministériel de Logiciels Libres (SILL)"
+        fr:
+          title: "Vous cherchez un logiciel libre ?"
+          message: "Le Socle Interministériel de Logiciels Libres (SILL) est un catalogue de référence des logiciels libres recommandés pour l'administration française."
+          button: "Consulter le Socle Interministériel de Logiciels Libres (SILL)"
+
 # RNA --> Journal Officiel
 -
   source: https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/

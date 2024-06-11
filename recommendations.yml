@@ -116,6 +116,42 @@
           message: "Un tableau de bord proposé par data.gouv.fr vous permet de connaître les indicateurs d'usage de data.gouv.fr."
           button: "Consulter le tableau de bord"
 
+# Brevets -> scanR
+-
+  source: https://www.data.gouv.fr/fr/datasets/brevets-francais/
+  recommendations:
+    -
+      id: https://scanr.enseignementsup-recherche.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you want to find or search for a French patent?"
+          message: "scanR allows you to browse and consult patents."
+          button: "Visit scanR"
+        fr:
+          title: "Vous souhaitez trouver ou chercher un brevet français ?"
+          message: "L'outil scanR vous permet de parcourir et de consulter les brevets."
+          button: "Consulter scanR"
+
+# Thèses -> scanR
+-
+  source: https://www.data.gouv.fr/fr/datasets/theses-soutenues-en-france-depuis-1985/
+  recommendations:
+    -
+      id: https://scanr.enseignementsup-recherche.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Do you want to find a thesis on a specific topic?"
+          message: "scanR allows you to browse and access research publications (if access is open)."
+          button: "Visit scanR"
+        fr:
+          title: "Vous souhaitez trouver une thèse sur un sujet spécifique ?"
+          message: "L'outil scanR vous permet de parcourir les publications de recherche et d'y accéder (si l'accès est ouvert)."
+          button: "Consulter scanR"
+
 # RNA --> Journal Officiel
 -
   source: https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/

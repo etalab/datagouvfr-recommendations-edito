@@ -116,9 +116,9 @@
           message: "L'outil scanR vous permet de parcourir les structures de recherche et d'en consulter les informations détaillées."
           button: "Consulter scanR"
 
-# Structures de recherche -> scanR
+# Structures de recherche historique annuel -> scanR
 -
-  source: https://www.data.gouv.fr/fr/datasets/repertoire-national-des-structures-de-recherche-historique-annuel
+  source: https://www.data.gouv.fr/fr/datasets/repertoire-national-des-structures-de-recherche-historique-annuel/
   recommendations:
     -
       id: https://scanr.enseignementsup-recherche.gouv.fr/

@@ -98,6 +98,114 @@
           message: "L'Annuaire des Entreprises vous permet de facilement retrouver des numéros de SIRET depuis la base de l'INSEE."
           button: "Consulter l'Annuaire des Entreprises"
 
+# Structures de recherche -> scanR
+-
+  source: https://www.data.gouv.fr/fr/datasets/repertoire-national-des-structures-de-recherche/
+  recommendations:
+    -
+      id: https://scanr.enseignementsup-recherche.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Would you like to find out more about a research facility?"
+          message: "scanR allows you to browse research facilities and consult detailed information."
+          button: "Visit scanR"
+        fr:
+          title: "Vous souhaitez vous informer sur une structure de recherche ?"
+          message: "L'outil scanR vous permet de parcourir les structures de recherche et d'en consulter les informations détaillées."
+          button: "Consulter scanR"
+
+# Structures de recherche historique annuel -> scanR
+-
+  source: https://www.data.gouv.fr/fr/datasets/repertoire-national-des-structures-de-recherche-historique-annuel/
+  recommendations:
+    -
+      id: https://scanr.enseignementsup-recherche.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Would you like to find out more about a research facility?"
+          message: "scanR allows you to browse research facilities and consult detailed information."
+          button: "Visit scanR"
+        fr:
+          title: "Vous souhaitez vous informer sur une structure de recherche ?"
+          message: "L'outil scanR vous permet de parcourir les structures de recherche et d'en consulter les informations détaillées."
+          button: "Consulter scanR"
+
+# Publications scientifiques recensées dans scanR --> scanR
+-
+  source: https://www.data.gouv.fr/fr/datasets/publications-scientifiques-recensees-dans-scanr/
+  recommendations:
+    -
+      id: https://scanr.enseignementsup-recherche.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for a scientific publication?"
+          message: "scanR allows you to browse and access scientific publications (if access is open)."
+          button: "Visit scanR"
+        fr:
+          title: "Vous souhaitez trouver une publication scientifique ?"
+          message: "L'outil scanR vous permet de parcourir les publications scientifiques et d'y accéder (si l'accès est ouvert)."
+          button: "Consulter scanR"
+
+# Appels à projets ANR - Projets retenus et participants identifiés --> scanR
+-
+  source: https://www.data.gouv.fr/fr/datasets/appels-a-projets-anr-projets-retenus-et-participants-identifies/
+  recommendations:
+    -
+      id: https://scanr.enseignementsup-recherche.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Would you like to check on research projects funded by the French national research agency?"
+          message: "scanR allows you to browse funded projects and find out more about them."
+          button: "Visit scanR"
+        fr:
+          title: "Vous souhaitez consulter les projets de recherche financés par l'Agence nationale de la recherche ?"
+          message: "L'outil scanR vous permet de parcourir les projets financés et de vous informer à leur sujet."
+          button: "Consulter scanR"
+
+# Demandes de brevets --> scanR
+-
+  source: https://www.data.gouv.fr/fr/datasets/demandes-de-brevets/
+  recommendations:
+    -
+      id: https://scanr.enseignementsup-recherche.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Would you like to find or search for a patent application?"
+          message: "scanR allows you to browse and consult patents."
+          button: "Visit scanR"
+        fr:
+          title: "Vous souhaitez trouver ou chercher une demande de brevet ?"
+          message: "L'outil scanR vous permet de parcourir et de consulter les brevets."
+          button: "Consulter scanR"
+
+# Déposants de brevets --> scanR
+-
+  source: https://www.data.gouv.fr/fr/datasets/deposants-des-brevets-1/
+  recommendations:
+    -
+      id: https://scanr.enseignementsup-recherche.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Would you like to find or search for a patent applicant?"
+          message: "scanR allows you to browse and consult patents."
+          button: "Visit scanR"
+        fr:
+          title: "Vous souhaitez trouver ou chercher un déposant de brevet ?"
+          message: "L'outil scanR vous permet de parcourir et de consulter les brevets."
+          button: "Consulter scanR"
+
 # Catalogue de data.gouv.fr -> Tableau de bord indicateurs data.gouv.fr
 -
   source: https://www.data.gouv.fr/fr/datasets/catalogue-des-donnees-de-data-gouv-fr/

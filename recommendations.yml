@@ -98,6 +98,24 @@
           message: "L'Annuaire des Entreprises vous permet de facilement retrouver des numéros de SIRET depuis la base de l'INSEE."
           button: "Consulter l'Annuaire des Entreprises"
 
+# Liste des entreprises de l'ESS -> reuse annuaire des entreprises
+-
+  source: https://www.data.gouv.fr/fr/datasets/liste-des-entreprises-de-less/
+  recommendations:
+    -
+      id: https://annuaire-entreprises.data.gouv.fr/lp/ess-economie-sociale-solidaire
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to find out more about a company in the Social Solidarity Economy?"
+          message: "Annuaire des Entreprises allows you to easily find associations and companies in the Social and Solidarity Economy and to consult detailed information."
+          button: "Visit l'Annuaire des Entreprises"
+        fr:
+          title: "Vous souhaitez vous informer sur une entreprise de l’Economie Sociale et Solidaire (ESS) ?"
+          message: "L’Annuaire des Entreprises vous permet de retrouver facilement les associations et entreprises de l’Economie Sociale et Solidaire et d’en consulter les informations détaillées."
+          button: "Consulter l'Annuaire des Entreprises"
+
 # Structures de recherche -> scanR
 -
   source: https://www.data.gouv.fr/fr/datasets/repertoire-national-des-structures-de-recherche/

@@ -134,6 +134,24 @@
           message: "L'outil scanR vous permet de parcourir les structures de recherche et d'en consulter les informations détaillées."
           button: "Consulter scanR"
 
+# RNA agrégé --> Journal officiel
+-
+  source: https://www.data.gouv.fr/fr/datasets/rna-agrege-a-lechelle-nationale/
+  recommendations:
+    -
+      id: https://www.journal-officiel.gouv.fr/pages/associations-recherche/?reinitrefine=1&sort=cronosort&disjunctive.source
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for an association’s RNA number?"
+          message: "The « Journal Officiel » online platform allows you to easily find RNA numbers."
+          button: "Visit the « Journal Officiel »"
+        fr:
+          title: "Vous cherchez le numéro RNA d'une association ?"
+          message: "La plateforme en ligne du Journal Officiel vous permet de facilement retrouver des numéros RNA."
+          button: "Consulter le Journal Officiel"
+
 # Structures de recherche historique annuel -> scanR
 -
   source: https://www.data.gouv.fr/fr/datasets/repertoire-national-des-structures-de-recherche-historique-annuel/

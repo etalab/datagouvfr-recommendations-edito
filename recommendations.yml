@@ -116,6 +116,42 @@
           message: "L’Annuaire des Entreprises vous permet de retrouver facilement les associations et entreprises de l’Economie Sociale et Solidaire et d’en consulter les informations détaillées."
           button: "Consulter l'Annuaire des Entreprises"
 
+# Programme petites villes de demain --> Dataviz PVD
+-
+  source: https://www.data.gouv.fr/fr/datasets/programme-petites-villes-de-demain/
+  recommendations:
+    -
+      id: https://pvd.spallian.com/stat_dashboard.html?name=petites_villes_donnees&token_id=Banque-des-Territoires_public
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Would you like to find out more about a « Petite Ville de Demain »?"
+          message: "The PVD Dataviz tool offers detailed portraits of « petites villes de demain » (housing, economy, mobility, health, infrastructure, etc.)."
+          button: "Visit PVD Dataviz"
+        fr:
+          title: "Vous souhaitez vous renseigner sur une Petite Ville de Demain (PVD) ?"
+          message: "L’outil Dataviz PVD propose des portraits détaillés des petites villes de demain (habitat, économie, mobilités, santé, infrastructures, etc.)."
+          button: "Consulter Dataviz PVD"
+
+# Réseaux de chaleur --> France Chaleur Urbaine
+-
+  source: https://www.data.gouv.fr/fr/datasets/traces-des-reseaux-de-chaleur-et-de-froid/
+  recommendations:
+    -
+      id: https://france-chaleur-urbaine.beta.gouv.fr/carte
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to find out where the networks are?"
+          message: "France Chaleur Urbaine allows you to see the routes of heating networks and the potential for connection to the address."
+          button: "Visit France Chaleur Urbaine"
+        fr:
+          title: "Vous souhaitez connaître les tracés des réseaux ?"
+          message: "Le service public France Chaleur Urbaine vous permet de visualiser les tracés de réseaux de chaleur ainsi que les potentiels de raccordement à l’adresse."
+          button: "Consulter France Chaleur Urbaine"
+
 # Structures de recherche -> scanR
 -
   source: https://www.data.gouv.fr/fr/datasets/repertoire-national-des-structures-de-recherche/

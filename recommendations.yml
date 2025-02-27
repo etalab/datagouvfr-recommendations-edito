@@ -355,17 +355,17 @@
   source: https://www.data.gouv.fr/fr/datasets/base-de-donnees-nationale-des-batiments/
   recommendations:
     -
-      id: https://particulier.gorenove.fr/
+      id: https://gorenove.fr
       score: 50
       type: external
       messages:
         en:
           title: "Would you like to find out more about a building?"
-          message: "The « Go-Rénove » service allows you to find the characteristics of over 27 million residential and commercial buildings."
+          message: "The « Go-Rénove » service allows you to find the characteristics of over 32 million residential and commercial buildings."
           button: "Visit Go-Rénove"
         fr:
           title: "Vous souhaitez vous informer sur un bâtiment ?"
-          message: "Le service Go-Rénove vous permet de retrouver les caractéristiques de plus de 27 millions de bâtiments, résidentiels ou tertiaires."
+          message: "Le service Go-Rénove vous permet de retrouver les caractéristiques de plus de 32 millions de bâtiments, résidentiels ou tertiaires."
           button: "Consulter Go-Rénove"
 
 # BAN --> adresse.data.gouv.fr

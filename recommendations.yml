@@ -355,7 +355,7 @@
   source: https://www.data.gouv.fr/fr/datasets/base-de-donnees-nationale-des-batiments/
   recommendations:
     -
-      id: https://gorenove.fr
+      id: https://gorenove.fr/
       score: 50
       type: external
       messages:

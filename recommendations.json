@@ -1,0 +1,2147 @@
+[
+  {
+    "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+    "recommendations": [
+      {
+        "id": "fichier-exemple-stations-de-recharge-de-vehicules-electriques",
+        "score": 50,
+        "type": "dataset",
+        "messages": {}
+      }
+    ]
+  },
+  {
+    "id": "fichier-exemple-stations-de-recharge-de-vehicules-electriques",
+    "recommendations": [
+      {
+        "id": "fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques",
+        "score": 50,
+        "type": "dataset",
+        "messages": {}
+      }
+    ]
+  },
+  {
+    "id": "fichier-des-personnes-decedees",
+    "recommendations": [
+      {
+        "id": "moteur-de-recherche-des-personnes-decedees-matchid",
+        "score": 50,
+        "type": "reuse",
+        "messages": {}
+      }
+    ]
+  },
+  {
+    "id": "demandes-de-valeurs-foncieres",
+    "recommendations": [
+      {
+        "id": "https://explore.data.gouv.fr/immobilier",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for a property\u2019s sale price\u00a0?",
+            "message": "The \u00ab\u00a0Donn\u00e9es de valeur fonci\u00e8re (DVF)\u00a0\u00bb app allows you to easily find information on sold properties from the Direction g\u00e9n\u00e9rale des finances publiques base.",
+            "button": "Visit the \u00ab\u00a0Demandes de valeur fonci\u00e8re (DVF)\u00a0\u00bb app"
+          },
+          "fr": {
+            "title": "Vous cherchez le prix de vente d\u2019un bien immobilier\u00a0ou d\u2019un terrain ?",
+            "message": "L\u2019application \u00ab\u00a0Donn\u00e9es de valeur fonci\u00e8re (DVF)\u00a0\u00bb vous permet d\u2019acc\u00e9der \u00e0 une information claire sur les biens vendus issus de la base de la Direction g\u00e9n\u00e9rale des finances publiques.",
+            "button": "Consulter l\u2019application \u00ab\u00a0Donn\u00e9es de valeur fonci\u00e8re (DVF)\u00a0\u00bb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "demandes-de-valeurs-foncieres-geolocalisees",
+    "recommendations": [
+      {
+        "id": "https://explore.data.gouv.fr/immobilier",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for a property\u2019s sale price?",
+            "message": "The \u00ab\u00a0Donn\u00e9es de valeur fonci\u00e8re (DVF)\u00a0\u00bb app allows you to easily find information on sold properties from the Direction g\u00e9n\u00e9rale des finances publiques base.",
+            "button": "Visit the \u00ab\u00a0Demandes de valeur fonci\u00e8re (DVF)\u00a0\u00bb app"
+          },
+          "fr": {
+            "title": "Vous cherchez le prix de vente d\u2019un bien immobilier\u00a0ou d\u2019un terrain ?",
+            "message": "L\u2019application \u00ab\u00a0Donn\u00e9es de valeur fonci\u00e8re (DVF)\u00a0\u00bb vous permet d\u2019acc\u00e9der \u00e0 une information claire sur les biens vendus issus de la base de la Direction g\u00e9n\u00e9rale des finances publiques.",
+            "button": "Consulter l\u2019application \u00ab\u00a0Donn\u00e9es de valeur fonci\u00e8re (DVF)\u00a0\u00bb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret",
+    "recommendations": [
+      {
+        "id": "https://annuaire-entreprises.data.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for your SIRET number?",
+            "message": "L'Annuaire des Entreprises allows you to easily find SIRET numbers from the INSEE base.",
+            "button": "Visit l'Annuaire des Entreprises"
+          },
+          "fr": {
+            "title": "Vous cherchez votre num\u00e9ro SIRET ?",
+            "message": "L'Annuaire des Entreprises vous permet de facilement retrouver des num\u00e9ros de SIRET depuis la base de l'INSEE.",
+            "button": "Consulter l'Annuaire des Entreprises"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "liste-des-entreprises-de-less",
+    "recommendations": [
+      {
+        "id": "https://annuaire-entreprises.data.gouv.fr/lp/ess-economie-sociale-solidaire",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to find out more about a company in the Social Solidarity Economy?",
+            "message": "Annuaire des Entreprises allows you to easily find associations and companies in the Social and Solidarity Economy and to consult detailed information.",
+            "button": "Visit l'Annuaire des Entreprises"
+          },
+          "fr": {
+            "title": "Vous souhaitez vous informer sur une entreprise de l\u2019Economie Sociale et Solidaire (ESS)\u00a0?",
+            "message": "L\u2019Annuaire des Entreprises vous permet de retrouver facilement les associations et entreprises de l\u2019Economie Sociale et Solidaire et d\u2019en consulter les informations d\u00e9taill\u00e9es.",
+            "button": "Consulter l'Annuaire des Entreprises"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "programme-petites-villes-de-demain",
+    "recommendations": [
+      {
+        "id": "https://pvd.spallian.com/stat_dashboard.html?name=petites_villes_donnees&token_id=Banque-des-Territoires_public",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Would you like to find out more about a \u00ab\u00a0Petite Ville de Demain\u00a0\u00bb?",
+            "message": "The PVD Dataviz tool offers detailed portraits of \u00ab\u00a0petites villes de demain\u00a0\u00bb (housing, economy, mobility, health, infrastructure, etc.).",
+            "button": "Visit PVD Dataviz"
+          },
+          "fr": {
+            "title": "Vous souhaitez vous renseigner sur une Petite Ville de Demain (PVD)\u00a0?",
+            "message": "L\u2019outil Dataviz PVD propose des portraits d\u00e9taill\u00e9s des petites villes de demain (habitat, \u00e9conomie, mobilit\u00e9s, sant\u00e9, infrastructures, etc.).",
+            "button": "Consulter Dataviz PVD"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "traces-des-reseaux-de-chaleur-et-de-froid",
+    "recommendations": [
+      {
+        "id": "https://france-chaleur-urbaine.beta.gouv.fr/carte",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to find out where the networks are?",
+            "message": "France Chaleur Urbaine allows you to see the routes of heating networks and the potential for connection to the address.",
+            "button": "Visit France Chaleur Urbaine"
+          },
+          "fr": {
+            "title": "Vous souhaitez conna\u00eetre les trac\u00e9s des r\u00e9seaux\u00a0?",
+            "message": "Le service public France Chaleur Urbaine vous permet de visualiser les trac\u00e9s de r\u00e9seaux de chaleur ainsi que les potentiels de raccordement \u00e0 l\u2019adresse.",
+            "button": "Consulter\u00a0France Chaleur Urbaine"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "repertoire-national-des-structures-de-recherche",
+    "recommendations": [
+      {
+        "id": "https://scanr.enseignementsup-recherche.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Would you like to find out more about a research facility?",
+            "message": "scanR allows you to browse research facilities and consult detailed information.",
+            "button": "Visit scanR"
+          },
+          "fr": {
+            "title": "Vous souhaitez vous informer sur une structure de recherche ?",
+            "message": "L'outil scanR vous permet de parcourir les structures de recherche et d'en consulter les informations d\u00e9taill\u00e9es.",
+            "button": "Consulter scanR"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "rna-agrege-a-lechelle-nationale",
+    "recommendations": [
+      {
+        "id": "https://www.journal-officiel.gouv.fr/pages/associations-recherche/?reinitrefine=1&sort=cronosort&disjunctive.source",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for an association\u2019s RNA number?",
+            "message": "The \u00ab\u00a0Journal Officiel\u00a0\u00bb online platform allows you to easily find RNA numbers.",
+            "button": "Visit the \u00ab\u00a0Journal Officiel\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous cherchez le num\u00e9ro RNA d'une association ?",
+            "message": "La plateforme en ligne du Journal Officiel vous permet de facilement retrouver des num\u00e9ros RNA.",
+            "button": "Consulter le Journal Officiel"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "repertoire-national-des-structures-de-recherche-historique-annuel",
+    "recommendations": [
+      {
+        "id": "https://scanr.enseignementsup-recherche.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Would you like to find out more about a research facility?",
+            "message": "scanR allows you to browse research facilities and consult detailed information.",
+            "button": "Visit scanR"
+          },
+          "fr": {
+            "title": "Vous souhaitez vous informer sur une structure de recherche ?",
+            "message": "L'outil scanR vous permet de parcourir les structures de recherche et d'en consulter les informations d\u00e9taill\u00e9es.",
+            "button": "Consulter scanR"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "publications-scientifiques-recensees-dans-scanr",
+    "recommendations": [
+      {
+        "id": "https://scanr.enseignementsup-recherche.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for a scientific publication?",
+            "message": "scanR allows you to browse and access scientific publications (if access is open).",
+            "button": "Visit scanR"
+          },
+          "fr": {
+            "title": "Vous souhaitez trouver une publication scientifique ?",
+            "message": "L'outil scanR vous permet de parcourir les publications scientifiques et d'y acc\u00e9der (si l'acc\u00e8s est ouvert).",
+            "button": "Consulter scanR"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "appels-a-projets-anr-projets-retenus-et-participants-identifies",
+    "recommendations": [
+      {
+        "id": "https://scanr.enseignementsup-recherche.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Would you like to check on research projects funded by the French national research agency?",
+            "message": "scanR allows you to browse funded projects and find out more about them.",
+            "button": "Visit scanR"
+          },
+          "fr": {
+            "title": "Vous souhaitez consulter les projets de recherche financ\u00e9s par l'Agence nationale de la recherche ?",
+            "message": "L'outil scanR vous permet de parcourir les projets financ\u00e9s et de vous informer \u00e0 leur sujet.",
+            "button": "Consulter scanR"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "demandes-de-brevets",
+    "recommendations": [
+      {
+        "id": "https://scanr.enseignementsup-recherche.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Would you like to find or search for a patent application?",
+            "message": "scanR allows you to browse and consult patents.",
+            "button": "Visit scanR"
+          },
+          "fr": {
+            "title": "Vous souhaitez trouver ou chercher une demande de brevet ?",
+            "message": "L'outil scanR vous permet de parcourir et de consulter les brevets.",
+            "button": "Consulter scanR"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "deposants-des-brevets-1",
+    "recommendations": [
+      {
+        "id": "https://scanr.enseignementsup-recherche.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Would you like to find or search for a patent applicant?",
+            "message": "scanR allows you to browse and consult patents.",
+            "button": "Visit scanR"
+          },
+          "fr": {
+            "title": "Vous souhaitez trouver ou chercher un d\u00e9posant de brevet ?",
+            "message": "L'outil scanR vous permet de parcourir et de consulter les brevets.",
+            "button": "Consulter scanR"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "catalogue-des-donnees-de-data-gouv-fr",
+    "recommendations": [
+      {
+        "id": "https://www.data.gouv.fr/fr/dashboard/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you want to keep track of the data.gouv.fr platform's statistics?",
+            "message": "A dashboard provided by the data.gouv.fr team gives you an overview of the data.gouv.fr usage indicators.",
+            "button": "Visit the dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez suivre l'\u00e9volution des statistiques de la plateforme data.gouv.fr ?",
+            "message": "Un tableau de bord propos\u00e9 par data.gouv.fr vous permet de conna\u00eetre les indicateurs d'usage de data.gouv.fr.",
+            "button": "Consulter le tableau de bord"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "brevets-francais",
+    "recommendations": [
+      {
+        "id": "https://scanr.enseignementsup-recherche.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you want to find or search for a French patent?",
+            "message": "scanR allows you to browse and consult patents.",
+            "button": "Visit scanR"
+          },
+          "fr": {
+            "title": "Vous souhaitez trouver ou chercher un brevet fran\u00e7ais ?",
+            "message": "L'outil scanR vous permet de parcourir et de consulter les brevets.",
+            "button": "Consulter scanR"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "theses-soutenues-en-france-depuis-1985",
+    "recommendations": [
+      {
+        "id": "https://scanr.enseignementsup-recherche.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you want to find a thesis on a specific topic?",
+            "message": "scanR allows you to browse and access research publications (if access is open).",
+            "button": "Visit scanR"
+          },
+          "fr": {
+            "title": "Vous souhaitez trouver une th\u00e8se sur un sujet sp\u00e9cifique ?",
+            "message": "L'outil scanR vous permet de parcourir les publications de recherche et d'y acc\u00e9der (si l'acc\u00e8s est ouvert).",
+            "button": "Consulter scanR"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "repertoire-national-des-associations",
+    "recommendations": [
+      {
+        "id": "https://www.journal-officiel.gouv.fr/pages/associations-recherche/?reinitrefine=1&sort=cronosort&disjunctive.source",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for your association\u2019s RNA number?",
+            "message": "The \u00ab\u00a0Journal Officiel\u00a0\u00bb online platform allows you to easily find RNA numbers.",
+            "button": "Visit the \u00ab\u00a0Journal Officiel\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous cherchez le num\u00e9ro RNA de votre association\u00a0? ",
+            "message": "La plateforme en ligne du Journal Officiel vous permet de facilement retrouver des num\u00e9ros RNA.",
+            "button": "Consulter le Journal Officiel"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "base-de-donnees-nationale-des-batiments",
+    "recommendations": [
+      {
+        "id": "https://gorenove.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Would you like to find out more about a building?",
+            "message": "The \u00ab\u00a0Go-R\u00e9nove\u00a0\u00bb service allows you to find the characteristics of over 32 million residential and commercial buildings.",
+            "button": "Visit Go-R\u00e9nove"
+          },
+          "fr": {
+            "title": "Vous souhaitez vous informer sur un b\u00e2timent\u00a0?",
+            "message": "Le service Go-R\u00e9nove vous permet de retrouver les caract\u00e9ristiques de plus de 32 millions de b\u00e2timents, r\u00e9sidentiels ou tertiaires.",
+            "button": "Consulter Go-R\u00e9nove"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "base-adresse-nationale",
+    "recommendations": [
+      {
+        "id": "https://adresse.data.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Would you like to search for an address in the National Address Database, or manage your own addresses?",
+            "message": "The national address website \u00ab\u00a0adresse.data.gouv.fr\u00a0\u00bb references all addresses in France and make them usable for all.",
+            "button": "Visit adresse.data.gouv.fr"
+          },
+          "fr": {
+            "title": "Vous souhaitez chercher une adresse dans la Base Adresse Nationale ou, pour les communes, g\u00e9rer vos adresses\u00a0?",
+            "message": "Le site national des adresses, adresse.data.gouv.fr, r\u00e9f\u00e9rence l\u2019int\u00e9gralit\u00e9 des adresses du territoire et les rend utilisables par toutes et tous.",
+            "button": "Consulter adresse.data.gouv.fr"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "annuaire-de-leducation",
+    "recommendations": [
+      {
+        "id": "https://www.education.gouv.fr/annuaire",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for information about a school?",
+            "message": "The \u00ab\u00a0Annuaire de l'\u00e9ducation nationale\u00a0\u00bb allows you to find information on primary schools, middle schools, high schools, etc.",
+            "button": "Visit the \u00ab\u00a0Annuaire de l\u2019\u00e9ducation nationale\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous cherchez des informations sur un \u00e9tablissement scolaire\u00a0?",
+            "message": "L\u2019Annuaire de l\u2019\u00e9ducation nationale vous permet de trouver et de vous informer sur une \u00e9cole, un coll\u00e8ge, un lyc\u00e9e, etc.",
+            "button": "Consulter l\u2019Annuaire de l\u2019\u00e9ducation"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "service-public-fr-guide-vos-droits-et-demarches-particuliers",
+    "recommendations": [
+      {
+        "id": "https://www.service-public.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you have a question about your rights or an administrative procedure?",
+            "message": "Service-Public.fr provides you with the information you need and guides you through the process.",
+            "button": "Visit Service-Public.fr"
+          },
+          "fr": {
+            "title": "Vous avez une question sur vos droits ou sur une d\u00e9marche administrative\u00a0?",
+            "message": "Service-Public.fr vous fournit les informations dont vous avez besoin et vous guide dans vos d\u00e9marches.",
+            "button": "Consulter Service-Public.fr"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "liste-publique-des-organismes-de-formation-l-6351-7-1-du-code-du-travail",
+    "recommendations": [
+      {
+        "id": "https://annuaire-entreprises.data.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know whether a training organisation is \u00ab\u00a0Qualiopi\u00a0\u00bb certified?",
+            "message": "L\u2019Annuaire des Entreprises allows you to easily check whether a structure is \u00ab\u00a0Qualiopi\u00a0\u00bb certified, in the \u00ab\u00a0Labels and certificates\u00a0\u00bb tab.",
+            "button": "Visit l\u2019Annuaire des Entreprises"
+          },
+          "fr": {
+            "title": "Vous souhaitez savoir si un organisme de formation est certifi\u00e9 Qualiopi\u00a0?",
+            "message": "L\u2019Annuaire des Entreprises vous permet de v\u00e9rifier facilement si une structure est certifi\u00e9e Qualiopi, dans l\u2019onglet \u00ab\u00a0Labels et certificats\u00a0\u00bb.",
+            "button": "Consulter l\u2019Annuaire des Entreprises"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "professionnels-engages-en-bio",
+    "recommendations": [
+      {
+        "id": "https://annuaire-entreprises.data.gouv.fr/rechercher?terme=&cp_dep_label=&cp_dep_type=&cp_dep=&fn=&n=&dmin=&dmax=&type=&label=bio&etat=&sap=&naf=&nature_juridique=",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to check whether a professional is committed to organic farming and find out more about it?",
+            "message": "L\u2019Annuaire des Entreprises allows you to easily find information and certificates of organic farming.",
+            "button": "Visit l\u2019Annuaire des Entreprises"
+          },
+          "fr": {
+            "title": "Vous souhaitez v\u00e9rifier qu\u2019un professionnel est engag\u00e9 en bio et vous renseigner \u00e0 son sujet\u00a0?",
+            "message": "L\u2019Annuaire des Entreprises vous permet de retrouver facilement les informations et les certificats du bio.",
+            "button": "Consulter l\u2019Annuaire des Entreprises"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "declarations-des-entrepreneurs-de-spectacles-vivants",
+    "recommendations": [
+      {
+        "id": "https://annuaire-entreprises.data.gouv.fr/lp/entrepreneur-spectacles-vivants",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for a live performance contractor?",
+            "message": "L\u2019Annuaire des Entreprises allows you to easily find information on the declarations and receipts of entertainment contractors in France.",
+            "button": "Visit l\u2019Annuaire des Entreprises"
+          },
+          "fr": {
+            "title": "Vous recherchez un entrepreneur ou une entrepreneure de spectacles vivants\u00a0?",
+            "message": "L\u2019Annuaire des Entreprises vous permet de retrouver facilement des informations sur les d\u00e9clarations et les r\u00e9c\u00e9piss\u00e9s des entrepreneurs de spectacles en France.",
+            "button": "Consulter l\u2019Annuaire des Entreprises"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "zones-de-revitalisation-rurale-zrr",
+    "recommendations": [
+      {
+        "id": "https://www.observatoire-des-territoires.gouv.fr/zonage-de-politiques-publiques",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know whether your city/town is eligible for the \u00ab\u00a0Zone de revitalisation rurale\u00a0\u00bb scheme?",
+            "message": "The Observatoire des territoires offers a tool that allows you to visualise the zoning, and tells you whether or not your town/city is covered.",
+            "button": "See the tool developed by the Observatoire des territoires"
+          },
+          "fr": {
+            "title": "Vous souhaitez savoir si votre commune est \u00e9ligible au dispositif\u00a0\u00ab\u00a0Zone de revitalisation rurale\u00a0\u00bb ?",
+            "message": "L\u2019Observatoire des territoires propose un outil qui vous permet de visualiser le zonage, et vous indique si votre commune est concern\u00e9e ou non.",
+            "button": "Consulter l\u2019outil de l\u2019Observatoire des territoires"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "zones-daide-a-finalite-regionale-afr",
+    "recommendations": [
+      {
+        "id": "https://www.observatoire-des-territoires.gouv.fr/zonage-de-politiques-publiques",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know whether your city/town is eligible for the \u00ab\u00a0Aide \u00e0 finalit\u00e9 r\u00e9gionale\u00a0\u00bb scheme?",
+            "message": "The Observatoire des territoires offers a tool that allows you to visualise the zoning, and tells you whether or not your town/city is covered.",
+            "button": "See the tool developed by the Observatoire des territoires"
+          },
+          "fr": {
+            "title": "Vous souhaitez savoir si votre commune est \u00e9ligible au dispositif\u00a0\u00ab\u00a0Aide \u00e0 finalit\u00e9 r\u00e9gionale\u00a0\u00bb ?",
+            "message": "L\u2019Observatoire des territoires propose un outil qui vous permet de visualiser le zonage, et vous indique si votre commune est concern\u00e9e ou non.",
+            "button": "Consulter l\u2019outil de l\u2019Observatoire des territoires"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "programme-action-coeur-de-ville",
+    "recommendations": [
+      {
+        "id": "https://www.observatoire-des-territoires.gouv.fr/zonage-de-politiques-publiques",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know whether your city/town is eligible for the \u00ab\u00a0Action c\u0153ur de ville\u00a0\u00bb scheme?",
+            "message": "The Observatoire des territoires offers a tool that allows you to visualise the zoning, and tells you whether or not your town/city is covered.",
+            "button": "See the tool developed by the Observatoire des territoires"
+          },
+          "fr": {
+            "title": "Vous souhaitez savoir si votre commune est \u00e9ligible au dispositif\u00a0\u00ab\u00a0Action c\u0153ur de ville\u00a0\u00bb ?",
+            "message": "L\u2019Observatoire des territoires propose un outil qui vous permet de visualiser le zonage, et vous indique si votre commune est concern\u00e9e ou non.",
+            "button": "Consulter l\u2019outil de l\u2019Observatoire des territoires"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "fichier-des-personnes-decedees",
+    "recommendations": [
+      {
+        "id": "https://deces.matchid.io/search",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for information on a deceased person?",
+            "message": "matchID allows you to search through 26 million deaths since 1970.",
+            "button": "Visit matchID"
+          },
+          "fr": {
+            "title": "Vous souhaitez trouver des informations sur une personne d\u00e9c\u00e9d\u00e9e\u00a0?",
+            "message": "L\u2019outil matchID vous permet de rechercher parmi 26 millions de d\u00e9c\u00e8s depuis 1970.",
+            "button": "Consulter matchID"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "agregation-des-fichiers-des-personnes-decedees",
+    "recommendations": [
+      {
+        "id": "https://deces.matchid.io/search",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for information on a deceased person?",
+            "message": "matchID allows you to search through 26 million deaths since 1970.",
+            "button": "Visit matchID"
+          },
+          "fr": {
+            "title": "Vous souhaitez trouver des informations sur une personne d\u00e9c\u00e9d\u00e9e\u00a0?",
+            "message": "L\u2019outil matchID vous permet de rechercher parmi 26 millions de d\u00e9c\u00e8s depuis 1970.",
+            "button": "Consulter matchID"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022",
+    "recommendations": [
+      {
+        "id": "https://www.observatoire-des-territoires.gouv.fr/zonage-de-politiques-publiques",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know whether your city/town is covered by the \u00ab\u00a0Loi Montagne\u00a0\u00bb?",
+            "message": "The Observatoire des territoires offers a tool that allows you to visualise the zoning, and tells you whether or not your town/city is covered.",
+            "button": "See the tool developed by the Observatoire des territoires"
+          },
+          "fr": {
+            "title": "Vous souhaitez savoir si votre commune est concern\u00e9e par la Loi Montagne\u00a0?",
+            "message": "L\u2019Observatoire des territoires propose un outil qui vous permet de visualiser le zonage, et vous indique si votre commune est concern\u00e9e ou non.",
+            "button": "Consulter l\u2019outil de l\u2019Observatoire des territoires"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "quartiers-prioritaires-de-la-politique-de-la-ville-qpv",
+    "recommendations": [
+      {
+        "id": "https://sig.ville.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know whether a location is in a priority urban district (QPV)?",
+            "message": "The SIG-ville platform, developped by ANCT, enables you to identify priority urban districts (QPV) based on an address.",
+            "button": "Visit the SIG-ville platform"
+          },
+          "fr": {
+            "title": "Vous souhaitez savoir si un lieu se situe en quartier prioritaire de la politique de la ville (QPV)\u00a0?",
+            "message": "La plateforme SIG-ville, port\u00e9e par l'ANCT, vous permet d\u2019identifier les quartiers prioritaires de la politique de la ville (QPV) \u00e0 partir d\u2019une adresse.",
+            "button": "Consulter la plateforme SIG-ville"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "liste-des-entreprises-rge-1",
+    "recommendations": [
+      {
+        "id": "https://annuaire-entreprises.data.gouv.fr/rechercher?terme=&cp_dep_label=&cp_dep_type=&cp_dep=&fn=&n=&dmin=&dmax=&type=&label=rge&etat=&sap=&naf=&nature_juridique=&tranche_effectif_salarie=&categorie_entreprise",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to check whether your and/or a company has the RGE label?",
+            "message": "The \u00ab\u00a0Annuaire des Entreprises\u00a0\u00bb makes it easy for you to find the certificates of RGE professionals.",
+            "button": "Visit \u00ab\u00a0l\u2019Annuaire des Entreprises\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous souhaitez v\u00e9rifier qu\u2019une ou que votre entreprise est bien labellis\u00e9e RGE\u00a0?",
+            "message": "L\u2019Annuaire des Entreprises vous permet de retrouver facilement les certificats des professionnels RGE.",
+            "button": "Consulter l\u2019Annuaire des Entreprises"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "liste-des-conventions-collectives-par-entreprise-siret",
+    "recommendations": [
+      {
+        "id": "https://code.travail.gouv.fr/outils/convention-collective",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for your company's collective bargaining agreement?",
+            "message": "The \u00ab\u00a0Code du Travail num\u00e9rique\u00a0\u00bb lets you find and consult your company's collective bargaining agreement.",
+            "button": "Visit the \u00ab\u00a0Code du Travail num\u00e9rique\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous recherchez la convention collective de votre entreprise\u00a0?",
+            "message": "Le Code du Travail num\u00e9rique vous permet de trouver et de consulter la convention collective associ\u00e9e \u00e0 votre entreprise.",
+            "button": "Consulter le Code du Travail num\u00e9rique"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "donnees-hospitalieres-relatives-a-lepidemie-de-covid-19",
+    "recommendations": [
+      {
+        "id": "https://www.gouvernement.fr/info-coronavirus/carte-et-donnees",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you want to monitor the COVID-19 pandemic\u00a0evolution?",
+            "message": "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation.",
+            "button": "Visit the COVID-19 pandemic monitoring dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez suivre l\u2019\u00e9volution de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l\u2019\u00e9volution de la situation sanitaire.",
+            "button": "Consulter le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19",
+    "recommendations": [
+      {
+        "id": "https://www.gouvernement.fr/info-coronavirus/carte-et-donnees",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you want to monitor the COVID-19 pandemic\u00a0evolution?",
+            "message": "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation.",
+            "button": "Visit the COVID-19 pandemic monitoring dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez suivre l\u2019\u00e9volution de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l\u2019\u00e9volution de la situation sanitaire.",
+            "button": "Consulter le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "synthese-des-indicateurs-de-suivi-de-lepidemie-covid-19",
+    "recommendations": [
+      {
+        "id": "https://www.gouvernement.fr/info-coronavirus/carte-et-donnees",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you want to monitor the COVID-19 pandemic\u00a0evolution?",
+            "message": "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation.",
+            "button": "Visit the COVID-19 pandemic monitoring dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez suivre l\u2019\u00e9volution de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l\u2019\u00e9volution de la situation sanitaire.",
+            "button": "Consulter le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "indicateurs-de-suivi-de-lepidemie-de-covid-19",
+    "recommendations": [
+      {
+        "id": "https://www.gouvernement.fr/info-coronavirus/carte-et-donnees",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you want to monitor the COVID-19 pandemic\u00a0evolution?",
+            "message": "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation.",
+            "button": "Visit the COVID-19 pandemic monitoring dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez suivre l\u2019\u00e9volution de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l\u2019\u00e9volution de la situation sanitaire.",
+            "button": "Consulter le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "old-taux-dincidence-de-lepidemie-de-covid-19",
+    "recommendations": [
+      {
+        "id": "https://www.gouvernement.fr/info-coronavirus/carte-et-donnees",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you want to monitor the COVID-19 pandemic\u00a0evolution?",
+            "message": "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation.",
+            "button": "Visit the COVID-19 pandemic monitoring dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez suivre l\u2019\u00e9volution de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l\u2019\u00e9volution de la situation sanitaire.",
+            "button": "Consulter le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "old-donnees-relatives-aux-tests-de-depistage-de-covid-19-realises-en-laboratoire-de-ville",
+    "recommendations": [
+      {
+        "id": "https://www.gouvernement.fr/info-coronavirus/carte-et-donnees",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you want to monitor the COVID-19 pandemic\u00a0evolution?",
+            "message": "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation.",
+            "button": "Visit the COVID-19 pandemic monitoring dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez suivre l\u2019\u00e9volution de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l\u2019\u00e9volution de la situation sanitaire.",
+            "button": "Consulter le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "transferts-de-patients-atteints-de-covid-19",
+    "recommendations": [
+      {
+        "id": "https://www.gouvernement.fr/info-coronavirus/carte-et-donnees",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you want to monitor the COVID-19 pandemic\u00a0evolution?",
+            "message": "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation.",
+            "button": "Visit the COVID-19 pandemic monitoring dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez suivre l\u2019\u00e9volution de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l\u2019\u00e9volution de la situation sanitaire.",
+            "button": "Consulter le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "donnees-de-la-carte-de-vigilance-covid-19",
+    "recommendations": [
+      {
+        "id": "https://www.gouvernement.fr/info-coronavirus/carte-et-donnees",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you want to monitor the COVID-19 pandemic\u00a0evolution?",
+            "message": "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation.",
+            "button": "Visit the COVID-19 pandemic monitoring dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez suivre l\u2019\u00e9volution de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l\u2019\u00e9volution de la situation sanitaire.",
+            "button": "Consulter le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "lieux-de-vaccination-contre-la-covid-19",
+    "recommendations": [
+      {
+        "id": "https://www.gouvernement.fr/info-coronavirus/carte-et-donnees",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you want to monitor the COVID-19 pandemic\u00a0evolution?",
+            "message": "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation.",
+            "button": "Visit the COVID-19 pandemic monitoring dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez suivre l\u2019\u00e9volution de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l\u2019\u00e9volution de la situation sanitaire.",
+            "button": "Consulter le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1",
+    "recommendations": [
+      {
+        "id": "https://www.gouvernement.fr/info-coronavirus/carte-et-donnees",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you want to monitor the COVID-19 pandemic\u00a0evolution?",
+            "message": "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation.",
+            "button": "Visit the COVID-19 pandemic monitoring dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez suivre l\u2019\u00e9volution de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l\u2019\u00e9volution de la situation sanitaire.",
+            "button": "Consulter le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "donnees-relatives-aux-stocks-des-doses-de-vaccins-contre-la-covid-19",
+    "recommendations": [
+      {
+        "id": "https://www.gouvernement.fr/info-coronavirus/carte-et-donnees",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you want to monitor the COVID-19 pandemic\u00a0evolution?",
+            "message": "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation.",
+            "button": "Visit the COVID-19 pandemic monitoring dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez suivre l\u2019\u00e9volution de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l\u2019\u00e9volution de la situation sanitaire.",
+            "button": "Consulter le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "donnees-relatives-aux-livraisons-de-vaccins-contre-la-covid-19",
+    "recommendations": [
+      {
+        "id": "https://www.gouvernement.fr/info-coronavirus/carte-et-donnees",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you want to monitor the COVID-19 pandemic\u00a0evolution?",
+            "message": "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation.",
+            "button": "Visit the COVID-19 pandemic monitoring dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez suivre l\u2019\u00e9volution de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l\u2019\u00e9volution de la situation sanitaire.",
+            "button": "Consulter le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "donnees-des-rendez-vous-pris-dans-des-centres-de-vaccination-contre-la-covid-19",
+    "recommendations": [
+      {
+        "id": "https://www.gouvernement.fr/info-coronavirus/carte-et-donnees",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Do you want to monitor the COVID-19 pandemic\u00a0evolution?",
+            "message": "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation.",
+            "button": "Visit the COVID-19 pandemic monitoring dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez suivre l\u2019\u00e9volution de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l\u2019\u00e9volution de la situation sanitaire.",
+            "button": "Consulter le tableau de bord de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "signalconso",
+    "recommendations": [
+      {
+        "id": "https://rappel.conso.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to find out about food and non-food product recalls?",
+            "message": "Signal Conso allows you to easily find information on recalled products.",
+            "button": "Visit Signal Conso"
+          },
+          "fr": {
+            "title": "Vous souhaitez vous renseigner sur les rappels de produits alimentaires et non alimentaires\u00a0?",
+            "message": "Signal Conso vous permet de consulter facilement les informations sur les produits rappel\u00e9s.",
+            "button": "Consulter Signal Conso"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "cadastre-minier",
+    "recommendations": [
+      {
+        "id": "https://camino.beta.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for information on mining titles and their characteristics?",
+            "message": "Camino allows you to find information on mining titles and follow current projects on a dashboard.",
+            "button": "Visit Camino"
+          },
+          "fr": {
+            "title": "Vous voulez consulter les titres miniers et leurs caract\u00e9ristiques\u00a0?",
+            "message": "Camino vous permet de retrouver les informations sur les titres miniers et de suivre les projets en cours sur un tableau de bord.",
+            "button": "Consulter Camino"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "que-faire-de-mes-dechets-produits",
+    "recommendations": [
+      {
+        "id": "https://quefairedemesdechets.ademe.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to find out where to dispose your waste?",
+            "message": "\u00ab\u00a0Que faire de mes d\u00e9chets\u00a0\u00bb offers solutions for all your waste and advice on how to produce less of it.",
+            "button": "Visit \u00ab\u00a0Que faire de mes d\u00e9chets\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous voulez v\u00e9rifier o\u00f9 d\u00e9poser vos d\u00e9chets\u00a0?",
+            "message": "\u00ab\u00a0Que faire de mes d\u00e9chets\u00a0\u00bb vous propose des solutions pour tous vos d\u00e9chets et des conseils pour en produire moins.",
+            "button": "Consulter \u00ab\u00a0Que faire de mes d\u00e9chets\u00a0\u00bb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "liste-des-structures-labellisees-france-services",
+    "recommendations": [
+      {
+        "id": "https://anct-carto.github.io/france_services/?lat=46.403685&lng=-3.328573&z=5.550000000000001",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for your nearest France services?",
+            "message": "The France services map allows you to find the France services nearest to an address, based on a search distance.",
+            "button": "View the France services map"
+          },
+          "fr": {
+            "title": "Vous cherchez la structure France services la plus proche de chez vous\u00a0?",
+            "message": "L\u2019annuaire cartographique France services vous permet de trouver les France services les plus proches d\u2019une adresse selon une distance de recherche.",
+            "button": "Consulter l\u2019annuaire cartographique France services"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "installations-de-production-delectricite-et-de-gaz",
+    "recommendations": [
+      {
+        "id": "https://www.agenceore.fr/datavisualisation/production-elec-par-territoire",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to get a better understanding of France\u2019s energy mix?",
+            "message": "Agence ORE\u2019s tool enables you to visualise the different electricity production and storage facilities in France.",
+            "button": "View the map"
+          },
+          "fr": {
+            "title": "Vous souhaitez mieux comprendre le mix \u00e9nerg\u00e9tique national, ainsi que celui des r\u00e9gions et des d\u00e9partements\u00a0?",
+            "message": "Une cartographie de l\u2019Agence ORE vous permet de visualiser les diff\u00e9rentes installations de production et de stockage d\u2019\u00e9lectricit\u00e9 en France.",
+            "button": "Consulter la cartographie"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sites-references-dans-cartofriches",
+    "recommendations": [
+      {
+        "id": "https://cartofriches.cerema.fr/cartofriches/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for wasteland in a given geographical area?",
+            "message": "Cartofriches provides you with a national inventory of wasteland.",
+            "button": "Visit Cartofriches"
+          },
+          "fr": {
+            "title": "Vous cherchez une friche dans une zone g\u00e9ographique donn\u00e9e\u00a0?",
+            "message": "Cartofriches vous propose un inventaire national des friches.",
+            "button": "Consulter Cartofriches"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "consommation-despaces-2009-2021-portail-national-de-lartificialisation",
+    "recommendations": [
+      {
+        "id": "https://artificialisation.developpement-durable.gouv.fr/cartographie-artificialisation",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to get a better understanding of soil artificialisation in France?",
+            "message": "A map provided by the portal of soil artificialisation allows you to view local land consumption data.",
+            "button": "View the map"
+          },
+          "fr": {
+            "title": "Vous souhaitez mieux comprendre l\u2019artificialisation des sols en France\u00a0?",
+            "message": "Une carte propos\u00e9e par le portail de l\u2019artificialisation des sols vous permet de visualiser les donn\u00e9es communales de consommation d\u2019espaces.",
+            "button": "Consulter la carte"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "points-dinjection-de-biomethane-en-france-en-service",
+    "recommendations": [
+      {
+        "id": "https://www.agenceore.fr/datavisualisation/biomethane-par-territoire",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know where biomethane injection points are located?",
+            "message": "Agence ORE\u2019s map shows the different injection sites and the origin of the biomethane.",
+            "button": "View the map"
+          },
+          "fr": {
+            "title": "Vous souhaitez conna\u00eetre la localisation des points d\u2019injection de biom\u00e9thane\u00a0?",
+            "message": "Une cartographie de l\u2019Agence ORE vous permet de visualiser les diff\u00e9rents sites d\u2019injection et l\u2019origine du biom\u00e9thane.",
+            "button": "Consulter la cartographie"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "distributeurs-de-gaz-et-delectricite-par-commune",
+    "recommendations": [
+      {
+        "id": "https://www.agenceore.fr/datavisualisation/distributeurs-energie-france",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to find out about electricity and gas distributors?",
+            "message": "Agence ORE\u2019s map allows you to visualise them in a given territory.",
+            "button": "View the map"
+          },
+          "fr": {
+            "title": "Vous souhaitez conna\u00eetre les distributeurs d\u2019\u00e9lectricit\u00e9 et de gaz\u00a0?",
+            "message": "Une cartographie de l\u2019Agence ORE vous permet de les visualiser pour un territoire donn\u00e9.",
+            "button": "Consulter la cartographie"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "referentiel-des-distributeurs-denergie",
+    "recommendations": [
+      {
+        "id": "https://www.agenceore.fr/datavisualisation/distributeurs-energie-france",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to find out about electricity and gas distributors?",
+            "message": "Agence ORE\u2019s map allows you to visualise them in a given territory.",
+            "button": "View the map"
+          },
+          "fr": {
+            "title": "Vous souhaitez conna\u00eetre les distributeurs d\u2019\u00e9lectricit\u00e9 et de gaz\u00a0?",
+            "message": "Une cartographie de l\u2019Agence ORE vous permet de les visualiser pour un territoire donn\u00e9.",
+            "button": "Consulter la cartographie"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "lignes-electriques-souterraines-moyenne-tension-hta",
+    "recommendations": [
+      {
+        "id": "https://www.agenceore.fr/datavisualisation/cartographie-reseaux",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know the location of gas and electricity networks?",
+            "message": "Agence ORE\u2019s map enables you to visualise the different electricity and gas distribution and transmission networks in a given area.",
+            "button": "View the map"
+          },
+          "fr": {
+            "title": "Vous souhaitez conna\u00eetre l\u2019emplacement des r\u00e9seaux de gaz et d\u2019\u00e9lectricit\u00e9\u00a0?",
+            "message": "Une cartographie de l\u2019Agence ORE vous permet de visualiser les diff\u00e9rents r\u00e9seaux de distribution et de transport d\u2019\u00e9lectricit\u00e9 et de gaz sur un territoire donn\u00e9.",
+            "button": "Consulter la cartographie"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "lignes-electriques-souterraines-basse-tension-bt",
+    "recommendations": [
+      {
+        "id": "https://www.agenceore.fr/datavisualisation/cartographie-reseaux",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know the location of gas and electricity networks?",
+            "message": "Agence ORE\u2019s map enables you to visualise the different electricity and gas distribution and transmission networks in a given area.",
+            "button": "View the map"
+          },
+          "fr": {
+            "title": "Vous souhaitez conna\u00eetre l\u2019emplacement des r\u00e9seaux de gaz et d\u2019\u00e9lectricit\u00e9\u00a0?",
+            "message": "Une cartographie de l\u2019Agence ORE vous permet de visualiser les diff\u00e9rents r\u00e9seaux de distribution et de transport d\u2019\u00e9lectricit\u00e9 et de gaz sur un territoire donn\u00e9.",
+            "button": "Consulter la cartographie"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "postes-source-et-postes-de-repartition-hta-hta-1",
+    "recommendations": [
+      {
+        "id": "https://www.agenceore.fr/datavisualisation/cartographie-reseaux",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know the location of gas and electricity networks?",
+            "message": "Agence ORE\u2019s map enables you to visualise the different electricity and gas distribution and transmission networks in a given area.",
+            "button": "View the map"
+          },
+          "fr": {
+            "title": "Vous souhaitez conna\u00eetre l\u2019emplacement des r\u00e9seaux de gaz et d\u2019\u00e9lectricit\u00e9\u00a0?",
+            "message": "Une cartographie de l\u2019Agence ORE vous permet de visualiser les diff\u00e9rents r\u00e9seaux de distribution et de transport d\u2019\u00e9lectricit\u00e9 et de gaz sur un territoire donn\u00e9.",
+            "button": "Consulter la cartographie"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "lignes-electriques-aeriennes-basse-tension-bt",
+    "recommendations": [
+      {
+        "id": "https://www.agenceore.fr/datavisualisation/cartographie-reseaux",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know the location of gas and electricity networks?",
+            "message": "Agence ORE\u2019s map enables you to visualise the different electricity and gas distribution and transmission networks in a given area.",
+            "button": "View the map"
+          },
+          "fr": {
+            "title": "Vous souhaitez conna\u00eetre l\u2019emplacement des r\u00e9seaux de gaz et d\u2019\u00e9lectricit\u00e9\u00a0?",
+            "message": "Une cartographie de l\u2019Agence ORE vous permet de visualiser les diff\u00e9rents r\u00e9seaux de distribution et de transport d\u2019\u00e9lectricit\u00e9 et de gaz sur un territoire donn\u00e9.",
+            "button": "Consulter la cartographie"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "lignes-electriques-aeriennes-moyenne-tension-hta",
+    "recommendations": [
+      {
+        "id": "https://www.agenceore.fr/datavisualisation/cartographie-reseaux",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know the location of gas and electricity networks?",
+            "message": "Agence ORE\u2019s map enables you to visualise the different electricity and gas distribution and transmission networks in a given area.",
+            "button": "View the map"
+          },
+          "fr": {
+            "title": "Vous souhaitez conna\u00eetre l\u2019emplacement des r\u00e9seaux de gaz et d\u2019\u00e9lectricit\u00e9\u00a0?",
+            "message": "Une cartographie de l\u2019Agence ORE vous permet de visualiser les diff\u00e9rents r\u00e9seaux de distribution et de transport d\u2019\u00e9lectricit\u00e9 et de gaz sur un territoire donn\u00e9.",
+            "button": "Consulter la cartographie"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "infrastructures-de-reseau-de-gaz",
+    "recommendations": [
+      {
+        "id": "https://www.agenceore.fr/datavisualisation/cartographie-reseaux",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know the location of gas and electricity networks?",
+            "message": "Agence ORE\u2019s map enables you to visualise the different electricity and gas distribution and transmission networks in a given area.",
+            "button": "View the map"
+          },
+          "fr": {
+            "title": "Vous souhaitez conna\u00eetre l\u2019emplacement des r\u00e9seaux de gaz et d\u2019\u00e9lectricit\u00e9\u00a0?",
+            "message": "Une cartographie de l\u2019Agence ORE vous permet de visualiser les diff\u00e9rents r\u00e9seaux de distribution et de transport d\u2019\u00e9lectricit\u00e9 et de gaz sur un territoire donn\u00e9.",
+            "button": "Consulter la cartographie"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "consommation-annuelle-delectricite-et-gaz-par-commune-et-par-secteur-dactivite",
+    "recommendations": [
+      {
+        "id": "https://www.agenceore.fr/datavisualisation/consommations-locales-energie",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to find out more about energy consumption in France?",
+            "message": "Agence ORE\u2019s map enables you to visualise electricity and gas consumption data, broken down by sector of activity.",
+            "button": "View the map"
+          },
+          "fr": {
+            "title": "Vous souhaitez mieux conna\u00eetre la consommation d\u2019\u00e9nergie en France\u00a0?",
+            "message": "Une cartographie de l\u2019Agence ORE vous permet de visualiser les donn\u00e9es de consommation d\u2019\u00e9lectricit\u00e9 et de gaz, r\u00e9parties selon les secteurs d\u2019activit\u00e9.",
+            "button": "Consulter la cartographie"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "consommation-annuelle-delectricite-et-gaz-par-iris-et-par-secteur-dactivite",
+    "recommendations": [
+      {
+        "id": "https://www.agenceore.fr/datavisualisation/consommations-locales-energie",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to find out more about energy consumption in France?",
+            "message": "Agence ORE\u2019s map enables you to visualise electricity and gas consumption data, broken down by sector of activity.",
+            "button": "View the map"
+          },
+          "fr": {
+            "title": "Vous souhaitez mieux conna\u00eetre la consommation d\u2019\u00e9nergie en France\u00a0?",
+            "message": "Une cartographie de l\u2019Agence ORE vous permet de visualiser les donn\u00e9es de consommation d\u2019\u00e9lectricit\u00e9 et de gaz, r\u00e9parties selon les secteurs d\u2019activit\u00e9.",
+            "button": "Consulter la cartographie"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "consommation-annuelle-delectricite-et-gaz-par-region-et-par-code-naf",
+    "recommendations": [
+      {
+        "id": "https://www.agenceore.fr/datavisualisation/consommations-locales-energie",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to find out more about energy consumption in France?",
+            "message": "Agence ORE\u2019s map enables you to visualise electricity and gas consumption data, broken down by sector of activity.",
+            "button": "View the map"
+          },
+          "fr": {
+            "title": "Vous souhaitez mieux conna\u00eetre la consommation d\u2019\u00e9nergie en France\u00a0?",
+            "message": "Une cartographie de l\u2019Agence ORE vous permet de visualiser les donn\u00e9es de consommation d\u2019\u00e9lectricit\u00e9 et de gaz, r\u00e9parties selon les secteurs d\u2019activit\u00e9.",
+            "button": "Consulter la cartographie"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19",
+    "recommendations": [
+      {
+        "id": "https://aides-entreprises.data.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to visualize the support measures for businesses implemented by the Government during the COVID-19 pandemic?",
+            "message": "The \u00ab\u00a0aides aux entreprises attribu\u00e9es dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0\u00bb dashboard allows you to easily find out about the solidarity fund, state-guaranteed loans, direct state loans, etc.",
+            "button": "Visit the \u00ab\u00a0aides aux entreprises \u00bb dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez visualiser les mesures de soutien aux entreprises mises en place par le Gouvernement dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord des aides aux entreprises attribu\u00e9es dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de vous renseigner facilement sur le fonds de solidarit\u00e9, les pr\u00eats garantis par l\u2019Etat, les pr\u00eats directs de l\u2019Etat, etc.",
+            "button": "Consulter le tableau de bord des aides aux entreprises"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "donnees-relatives-au-fonds-de-solidarite-mis-en-place-dans-le-cadre-de-lepidemie-de-covid-19",
+    "recommendations": [
+      {
+        "id": "https://aides-entreprises.data.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to visualize the support measures for businesses implemented by the Government during the COVID-19 pandemic?",
+            "message": "The \u00ab\u00a0aides aux entreprises attribu\u00e9es dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0\u00bb dashboard allows you to easily find out about the solidarity fund, state-guaranteed loans, direct state loans, etc.",
+            "button": "Visit the \u00ab\u00a0aides aux entreprises \u00bb dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez visualiser les mesures de soutien aux entreprises mises en place par le Gouvernement dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord des aides aux entreprises attribu\u00e9es dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de vous renseigner facilement sur le fonds de solidarit\u00e9, les pr\u00eats garantis par l\u2019Etat, les pr\u00eats directs de l\u2019Etat, etc.",
+            "button": "Consulter le tableau de bord des aides aux entreprises"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "donnees-relatives-aux-reports-decheances-fiscales-accordes-dans-le-cadre-de-lepidemie-de-covid-19",
+    "recommendations": [
+      {
+        "id": "https://aides-entreprises.data.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to visualize the support measures for businesses implemented by the Government during the COVID-19 pandemic?",
+            "message": "The \u00ab\u00a0aides aux entreprises attribu\u00e9es dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0\u00bb dashboard allows you to easily find out about the solidarity fund, state-guaranteed loans, direct state loans, etc.",
+            "button": "Visit the \u00ab\u00a0aides aux entreprises \u00bb dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez visualiser les mesures de soutien aux entreprises mises en place par le Gouvernement dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord des aides aux entreprises attribu\u00e9es dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de vous renseigner facilement sur le fonds de solidarit\u00e9, les pr\u00eats garantis par l\u2019Etat, les pr\u00eats directs de l\u2019Etat, etc.",
+            "button": "Consulter le tableau de bord des aides aux entreprises"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "donnees-relatives-aux-aides-exceptionnelles-aux-artisans-et-commercants-dans-le-cadre-de-lepidemie-de-covid-19",
+    "recommendations": [
+      {
+        "id": "https://aides-entreprises.data.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to visualize the support measures for businesses implemented by the Government during the COVID-19 pandemic?",
+            "message": "The \u00ab\u00a0aides aux entreprises attribu\u00e9es dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0\u00bb dashboard allows you to easily find out about the solidarity fund, state-guaranteed loans, direct state loans, etc.",
+            "button": "Visit the \u00ab\u00a0aides aux entreprises \u00bb dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez visualiser les mesures de soutien aux entreprises mises en place par le Gouvernement dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord des aides aux entreprises attribu\u00e9es dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de vous renseigner facilement sur le fonds de solidarit\u00e9, les pr\u00eats garantis par l\u2019Etat, les pr\u00eats directs de l\u2019Etat, etc.",
+            "button": "Consulter le tableau de bord des aides aux entreprises"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "aide-exceptionnelle-cpsti-rci-covid-19",
+    "recommendations": [
+      {
+        "id": "https://aides-entreprises.data.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to visualize the support measures for businesses implemented by the Government during the COVID-19 pandemic?",
+            "message": "The \u00ab\u00a0aides aux entreprises attribu\u00e9es dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0\u00bb dashboard allows you to easily find out about the solidarity fund, state-guaranteed loans, direct state loans, etc.",
+            "button": "Visit the \u00ab\u00a0aides aux entreprises \u00bb dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez visualiser les mesures de soutien aux entreprises mises en place par le Gouvernement dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord des aides aux entreprises attribu\u00e9es dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de vous renseigner facilement sur le fonds de solidarit\u00e9, les pr\u00eats garantis par l\u2019Etat, les pr\u00eats directs de l\u2019Etat, etc.",
+            "button": "Consulter le tableau de bord des aides aux entreprises"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "donnees-relatives-au-dispositif-dactivite-partielle-mis-en-oeuvre-dans-le-cadre-de-lepidemie-de-covid-19",
+    "recommendations": [
+      {
+        "id": "https://aides-entreprises.data.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to visualize the support measures for businesses implemented by the Government during the COVID-19 pandemic?",
+            "message": "The \u00ab\u00a0aides aux entreprises attribu\u00e9es dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0\u00bb dashboard allows you to easily find out about the solidarity fund, state-guaranteed loans, direct state loans, etc.",
+            "button": "Visit the \u00ab\u00a0aides aux entreprises \u00bb dashboard"
+          },
+          "fr": {
+            "title": "Vous souhaitez visualiser les mesures de soutien aux entreprises mises en place par le Gouvernement dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19\u00a0?",
+            "message": "Le tableau de bord des aides aux entreprises attribu\u00e9es dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19 vous permet de vous renseigner facilement sur le fonds de solidarit\u00e9, les pr\u00eats garantis par l\u2019Etat, les pr\u00eats directs de l\u2019Etat, etc.",
+            "button": "Consulter le tableau de bord des aides aux entreprises"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "prix-des-carburants-en-france-flux-instantane",
+    "recommendations": [
+      {
+        "id": "https://explore.data.gouv.fr/prix-carburants",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for a nearby gas station with the cheapest fuel?",
+            "message": "L\u2019Exploration des prix du carburant allows you to find out, in real time, the availability of fuel and the prices charged at gas stations.",
+            "button": "Visit \u00ab\u00a0l\u2019Exploration des prix du carburant\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous cherchez une station-service \u00e0 proximit\u00e9 qui propose le carburant le moins cher\u00a0?",
+            "message": "L\u2019Exploration des prix du carburant vous permet de conna\u00eetre, en temps r\u00e9el, la disponibilit\u00e9 des carburants et les prix pratiqu\u00e9s dans les stations-service.",
+            "button": "Voir \u00ab\u00a0l\u2019Exploration des prix du carburant\u00a0\u00bb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "prix-des-carburants-en-france-flux-quotidien",
+    "recommendations": [
+      {
+        "id": "https://explore.data.gouv.fr/prix-carburants",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for a nearby gas station with the cheapest fuel?",
+            "message": "L\u2019Exploration des prix du carburant allows you to find out, in real time, the availability of fuel and the prices charged at gas stations.",
+            "button": "Visit \u00ab\u00a0l\u2019Exploration des prix du carburant\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous cherchez une station-service \u00e0 proximit\u00e9 qui propose le carburant le moins cher\u00a0?",
+            "message": "L\u2019Exploration des prix du carburant vous permet de conna\u00eetre, en temps r\u00e9el, la disponibilit\u00e9 des carburants et les prix pratiqu\u00e9s dans les stations-service.",
+            "button": "Voir \u00ab\u00a0l\u2019Exploration des prix du carburant\u00a0\u00bb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "referentiel-de-lorganisation-administrative-de-letat",
+    "recommendations": [
+      {
+        "id": "https://lannuaire.service-public.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for a public service, an administration or a contact point?",
+            "message": "L\u2019Annuaire de l\u2019administration allows you to easily find all the contacts for your relations with public services (town hall, prefecture, ministry, etc.).",
+            "button": "Visit \u00ab\u00a0l\u2019Annuaire de l\u2019administration\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous cherchez un service public, une administration ou un contact\u00a0?",
+            "message": "L\u2019Annuaire de l\u2019administration vous permet de retrouver facilement tous les contacts pour vos relations avec les services publics (mairie, pr\u00e9fecture, minist\u00e8re, etc.).",
+            "button": "Consulter \u00ab\u00a0l\u2019Annuaire de l\u2019administration\u00a0\u00bb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "service-public-fr-annuaire-de-l-administration-base-de-donnees-locales",
+    "recommendations": [
+      {
+        "id": "https://lannuaire.service-public.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for a public service, an administration or a contact point?",
+            "message": "L\u2019Annuaire de l\u2019administration allows you to easily find all the contacts for your relations with public services (town hall, prefecture, ministry, etc.).",
+            "button": "Visit \u00ab\u00a0l\u2019Annuaire de l\u2019administration\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous cherchez un service public, une administration ou un contact\u00a0?",
+            "message": "L\u2019Annuaire de l\u2019administration vous permet de retrouver facilement tous les contacts pour vos relations avec les services publics (mairie, pr\u00e9fecture, minist\u00e8re, etc.).",
+            "button": "Consulter \u00ab\u00a0l\u2019Annuaire de l\u2019administration\u00a0\u00bb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "mon-reseau-mobile",
+    "recommendations": [
+      {
+        "id": "https://monreseaumobile.arcep.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to compare mobile operators in terms of coverage and quality of service?",
+            "message": "Mon r\u00e9seau mobile allows you to visualise and get information on mobile coverage as well as quality of service in France.",
+            "button": "Visit \u00ab\u00a0Mon r\u00e9seau mobile\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous souhaitez comparer les op\u00e9rateurs mobiles en mati\u00e8re de couverture et de qualit\u00e9 de service\u00a0?",
+            "message": "Mon r\u00e9seau mobile vous permet de visualiser et de conna\u00eetre la couverture mobile et la qualit\u00e9 de service en France.",
+            "button": "Consulter \u00ab\u00a0Mon r\u00e9seau mobile\u00a0\u00bb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "le-marche-du-haut-et-tres-haut-debit-fixe-deploiements",
+    "recommendations": [
+      {
+        "id": "https://cartefibre.arcep.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know if fiber is available at an address?",
+            "message": "Carte fibre allows you to view the status of fiber deployments as well as deployment forecasts in a given geographic area.",
+            "button": "Visit \u00ab\u00a0Carte fibre\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous souhaitez savoir si la fibre est disponible \u00e0 une adresse\u00a0?",
+            "message": "Carte fibre vous permet de visualiser l\u2019\u00e9tat d\u2019avancement des d\u00e9ploiements de la fibre optique ainsi que les pr\u00e9visions de d\u00e9ploiement dans une zone g\u00e9ographique donn\u00e9e.",
+            "button": "Consulter \u00ab\u00a0Carte fibre\u00a0\u00bb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ma-connexion-internet",
+    "recommendations": [
+      {
+        "id": "https://maconnexioninternet.arcep.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know which fixed internet technologies and speeds are available at an address?",
+            "message": "Ma connexion internet allows you to easily find information on the speeds offered in France by technology and operator.",
+            "button": "Visit \u00ab\u00a0Ma connexion internet\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous souhaitez savoir quelles sont les technologies et les d\u00e9bits de l\u2019internet fixe disponibles \u00e0 une adresse\u00a0?",
+            "message": "Ma connexion internet vous permet de retrouver facilement les informations sur les d\u00e9bits propos\u00e9s en France par technologie et op\u00e9rateurs.",
+            "button": "Consulter \u00ab Ma connexion internet \u00bb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "parcelles-en-agriculture-biologique-ab-declarees-a-la-pac",
+    "recommendations": [
+      {
+        "id": "https://www.agencebio.org/cartobio/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for plots of land cultivated in organic agriculture?",
+            "message": "Cartobio allows you to locate and get information on the plots of land that are managed in organic agriculture.",
+            "button": "Visit \u00ab\u00a0Cartobio\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous cherchez des parcelles cultiv\u00e9es en agriculture biologique\u00a0?",
+            "message": "Cartobio vous permet de localiser et de vous informer sur les parcelles conduites en agriculture biologique.",
+            "button": "Consulter \u00ab\u00a0Cartobio\u00a0\u00bb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "base-carbone-r-1",
+    "recommendations": [
+      {
+        "id": "https://impactco2.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know the impact on the climate of your everyday life objects and behaviors?",
+            "message": "\u00ab\u00a0Impact CO2\u00a0\u00bb allows you to research the emissions required to manufacture and consome the objects that surround you.",
+            "button": "Visit \u00ab\u00a0Impact CO2\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous souhaitez conna\u00eetre l\u2019impact sur le climat des objets et des gestes de votre quotidien\u00a0?",
+            "message": "\u00ab\u00a0Impact CO2\u00a0\u00bb vous permet de rechercher les \u00e9missions n\u00e9cessaires pour fabriquer et consommer les objets qui vous entourent.",
+            "button": "Consulter \u00ab\u00a0Impact CO2\u00a0\u00bb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance",
+    "recommendations": [
+      {
+        "id": "https://annuaire-entreprises.data.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know about the level of hygiene of your food production, processing and distribution establishments?",
+            "message": "L'Annuaire des Entreprises allows you to easily check the results of official food safety controls.",
+            "button": "Visit l'Annuaire des Entreprises"
+          },
+          "fr": {
+            "title": "Vous souhaitez vous renseigner sur le niveau d\u2019hygi\u00e8ne des \u00e9tablissements de production, de transformation et de distribution de vos produits alimentaires\u00a0?",
+            "message": "L'Annuaire des Entreprises vous permet de consulter facilement les r\u00e9sultats des contr\u00f4les officiels r\u00e9alis\u00e9s en mati\u00e8re de s\u00e9curit\u00e9 sanitaire des aliments.",
+            "button": "Voir l'Annuaire des Entreprises"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance-export-temporaire",
+    "recommendations": [
+      {
+        "id": "https://annuaire-entreprises.data.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know about the level of hygiene of your food production, processing and distribution establishments?",
+            "message": "L'Annuaire des Entreprises allows you to easily check the results of official food safety controls.",
+            "button": "Visit l'Annuaire des Entreprises"
+          },
+          "fr": {
+            "title": "Vous souhaitez vous renseigner sur le niveau d\u2019hygi\u00e8ne des \u00e9tablissements de production, de transformation et de distribution de vos produits alimentaires\u00a0?",
+            "message": "L'Annuaire des Entreprises vous permet de consulter facilement les r\u00e9sultats des contr\u00f4les officiels r\u00e9alis\u00e9s en mati\u00e8re de s\u00e9curit\u00e9 sanitaire des aliments.",
+            "button": "Voir l'Annuaire des Entreprises"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "registre-national-dimmatriculation-des-coproprietes",
+    "recommendations": [
+      {
+        "id": "https://www.registre-coproprietes.gouv.fr/annuaire",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for information on a condominium?",
+            "message": "L\u2019Annuaire des copropri\u00e9t\u00e9s allows you to easily find informatoin on condominiums in France.",
+            "button": "Visit \u00ab\u00a0l\u2019Annuaire des copropri\u00e9t\u00e9s\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous cherchez une information sur une copropri\u00e9t\u00e9\u00a0?",
+            "message": "L\u2019Annuaire des copropri\u00e9t\u00e9s vous permet de vous renseigner facilement sur les copropri\u00e9t\u00e9s en France.",
+            "button": "Consulter \u00ab\u00a0l\u2019Annuaire des copropri\u00e9t\u00e9s\u00a0\u00bb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "accessibilite-des-etablissements-recevant-du-public-erp-pour-les-personnes-en-situation-de-handicap",
+    "recommendations": [
+      {
+        "id": "https://acceslibre.beta.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to check the accessibility of a given place?",
+            "message": "AccesLibre allows you to easily find out about the accessibility of establishments open to the public.",
+            "button": "Visit \u00ab\u00a0AccesLibre\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous souhaitez v\u00e9rifier l\u2019accessibilit\u00e9 d\u2019un lieu ?",
+            "message": "AccesLibre vous permet de vous renseigner facilement sur l\u2019accessibilit\u00e9 des \u00e9tablissements recevant du public (ERP).",
+            "button": "Consulter \u00ab\u00a0AccesLibre\u00a0\u00bb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "trajets-realises-en-covoiturage-registre-de-preuve-de-covoiturage",
+    "recommendations": [
+      {
+        "id": "https://observatoire.covoiturage.beta.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know more about carpooling practices in France?",
+            "message": "L\u2019Observatoire national du covoiturage au quotidien allows you to monitor the evolution of short distance carpooling practices.",
+            "button": "Visit \u00ab\u00a0l\u2019Observatoire national du covoiturage au quotidien\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous souhaitez vous renseigner sur les pratiques de covoiturage en France\u00a0?",
+            "message": "L\u2019Observatoire national du covoiturage au quotidien vous permet de suivre l\u2019\u00e9volution des pratiques de covoiturage courte distance.",
+            "button": "Consulter \u00ab\u00a0l\u2019Observatoire national du covoiturage au quotidien\u00a0\u00bb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "aides-financieres-et-en-ingenierie-disponibles-pour-les-collectivites-territoriales-et-leurs-partenaires-locaux",
+    "recommendations": [
+      {
+        "id": "https://aides-territoires.beta.gouv.fr/",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Local authorities, are you looking for aid schemes to finance and support your local project?",
+            "message": "Aides-territoires allows you to quickly identify the relevant aid schemes for your projects.",
+            "button": "Visit \u00ab\u00a0Aides-territoires\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Collectivit\u00e9s, vous cherchez une aide pour financer et accompagner votre projet\u00a0local ?",
+            "message": "Aides-territoires vous permet d\u2019identifier rapidement les aides pertinentes pour vos projets.",
+            "button": "Consulter \u00ab\u00a0Aides-territoires\u00a0\u00bb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "dpe-logements-existants-depuis-juillet-2021",
+    "recommendations": [
+      {
+        "id": "https://data.ademe.fr/applications/dpe-v2-logements-existants-classes-energetiques?Date_%C3%A9tablissement_DPE=%222021-07-01%22,%222023-03-20%22&lat=46.196865787490935&lng=0.08662945559979107&zoom=3.5845316703558168",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for the \u00ab\u00a0DPE\u00a0\u00bb or \u00ab\u00a0GES\u00a0\u00bb label of an existing dwelling (since July 2021)?",
+            "message": "The \u00ab\u00a0visualisation des DPE des logements existants\u00a0\u00bb allows you to easily find information on their energy performance diagnoses.",
+            "button": "View the \u00ab\u00a0visualisation des DPE des logements existants\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous cherchez l\u2019\u00e9tiquette DPE ou GES d\u2019un logement\u00a0existant (depuis juillet 2021) ?",
+            "message": "La visualisation des DPE des logements existants vous permet de retrouver facilement les informations sur leurs diagnostics de performance \u00e9nerg\u00e9tique.",
+            "button": "Voir la visualisation des DPE des logements existants"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "dpe-logements-neufs-depuis-juillet-2021",
+    "recommendations": [
+      {
+        "id": "https://data.ademe.fr/applications/dpe-v2-logements-neufs-etiquettes-energie?Date_%C3%A9tablissement_DPE=%222021-07-01%22,%222023-03-20%22",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for the \u00ab\u00a0DPE\u00a0\u00bb or \u00ab\u00a0GES\u00a0\u00bb label of a new dwelling (since July 2021)?",
+            "message": "The \u00ab\u00a0visualisation des DPE des logements neufs\u00a0\u00bb allows you to easily find information on their energy performance diagnoses.",
+            "button": "View the \u00ab\u00a0visualisation des DPE des logements neufs\u00a0\u00bb"
+          },
+          "fr": {
+            "title": "Vous cherchez l\u2019\u00e9tiquette DPE ou GES d\u2019un logement\u00a0neuf (depuis juillet 2021) ?",
+            "message": "La visualisation des DPE des logements neufs vous permet de retrouver facilement les informations sur leurs diagnostics de performance \u00e9nerg\u00e9tique.",
+            "button": "Voir la visualisation des DPE des logements neufs"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "dpe-tertiaire-depuis-juillet-2021",
+    "recommendations": [
+      {
+        "id": "https://data.ademe.fr/applications/dpe-v2-tertiaire-classes-energetiques?Date_%C3%A9tablissement_DPE=%222021-07-01%22,%222023-03-20%22",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you looking for the \u00ab\u00a0DPE\u00a0\u00bb or \u00ab\u00a0GES\u00a0\u00bb label of tertiary buildings (since July 2021)?",
+            "message": "The \u00ab visualisation des DPE des b\u00e2timents tertiaires \u00bb allows you to easily find information on their energy performance diagnoses.",
+            "button": "View the \u00ab visualisation des DPE des b\u00e2timents tertiaires \u00bb"
+          },
+          "fr": {
+            "title": "Vous cherchez l\u2019\u00e9tiquette DPE ou GES d\u2019un b\u00e2timent tertiaire (depuis juillet 2021) ?",
+            "message": "La visualisation des DPE des b\u00e2timents tertiaires vous permet de retrouver facilement les informations sur leurs diagnostics de performance \u00e9nerg\u00e9tique.",
+            "button": "Voir la visualisation des DPE des b\u00e2timents tertiaires"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "donnees-eco2mix-nationales-temps-reel-1",
+    "recommendations": [
+      {
+        "id": "https://www.rte-france.com/eco2mix",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to follow electricity consumption and production in France?",
+            "message": "The \u00e9CO2mix app allows you to know, in real time, the consumption and production of electricity in the country.",
+            "button": "Visit the \u00e9CO2mix app"
+          },
+          "fr": {
+            "title": "Vous souhaitez suivre la consommation et la production d\u2019\u00e9lectricit\u00e9 en France\u00a0?",
+            "message": "L\u2019application \u00e9CO2mix vous permet de conna\u00eetre, en temps r\u00e9el, la consommation et la production d\u2019\u00e9lectricit\u00e9 r\u00e9alis\u00e9s.",
+            "button": "Consulter l\u2019application \u00e9CO2mix"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "donnees-eco2mix-regionales-temps-reel-1",
+    "recommendations": [
+      {
+        "id": "https://www.rte-france.com/eco2mix",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to follow electricity consumption and production in France?",
+            "message": "The \u00e9CO2mix app allows you to know, in real time, the consumption and production of electricity in the country.",
+            "button": "Visit the \u00e9CO2mix app"
+          },
+          "fr": {
+            "title": "Vous souhaitez suivre la consommation et la production d\u2019\u00e9lectricit\u00e9 en France\u00a0?",
+            "message": "L\u2019application \u00e9CO2mix vous permet de conna\u00eetre, en temps r\u00e9el, la consommation et la production d\u2019\u00e9lectricit\u00e9 r\u00e9alis\u00e9s.",
+            "button": "Consulter l\u2019application \u00e9CO2mix"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "agribalyse-3-1-synthese",
+    "recommendations": [
+      {
+        "id": "https://agribalyse.ademe.fr/app",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know more about the environmental impact of food?",
+            "message": "The Agribalyse app allows you to explore the ADEME base and simply visualize the environmental score and impact of products.",
+            "button": "Visit the Agribalyse app"
+          },
+          "fr": {
+            "title": "Vous voulez vous renseigner sur l\u2019impact environnemental de votre alimentation\u00a0?",
+            "message": "L\u2019application Agribalyse permet d\u2019explorer la base de l\u2019ADEME et de visualiser facilement le score environnemental et l\u2019impact des produits alimentaires.",
+            "button": "Consulter l\u2019application Agribalyse"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "agribalyse-3-1-detail-par-ingredient",
+    "recommendations": [
+      {
+        "id": "https://agribalyse.ademe.fr/app",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know more about the environmental impact of food?",
+            "message": "The Agribalyse app allows you to explore the ADEME base and simply visualize the environmental score and impact of products.",
+            "button": "Visit the Agribalyse app"
+          },
+          "fr": {
+            "title": "Vous voulez vous renseigner sur l\u2019impact environnemental de votre alimentation\u00a0?",
+            "message": "L\u2019application Agribalyse permet d\u2019explorer la base de l\u2019ADEME et de visualiser facilement le score environnemental et l\u2019impact des produits alimentaires.",
+            "button": "Consulter l\u2019application Agribalyse"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "agribalyse-3-1-detail-par-etape",
+    "recommendations": [
+      {
+        "id": "https://agribalyse.ademe.fr/app",
+        "score": 50,
+        "type": "external",
+        "messages": {
+          "en": {
+            "title": "Are you seeking to know more about the environmental impact of food?",
+            "message": "The Agribalyse app allows you to explore the ADEME base and simply visualize the environmental score and impact of products.",
+            "button": "Visit the Agribalyse app"
+          },
+          "fr": {
+            "title": "Vous voulez vous renseigner sur l\u2019impact environnemental de votre alimentation\u00a0?",
+            "message": "L\u2019application Agribalyse permet d\u2019explorer la base de l\u2019ADEME et de visualiser facilement le score environnemental et l\u2019impact des produits alimentaires.",
+            "button": "Consulter l\u2019application Agribalyse"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "donnees-relatives-aux-aides-exceptionnelles-aux-artisans-et-commercants-dans-le-cadre-de-lepidemie-de-covid-19",
+    "recommendations": [
+      {
+        "id": "aide-exceptionnelle-cpsti-rci-covid-19",
+        "score": 50,
+        "type": "dataset",
+        "messages": {}
+      }
+    ]
+  },
+  {
+    "id": "aide-exceptionnelle-cpsti-rci-covid-19",
+    "recommendations": [
+      {
+        "id": "donnees-relatives-aux-aides-exceptionnelles-aux-artisans-et-commercants-dans-le-cadre-de-lepidemie-de-covid-19",
+        "score": 50,
+        "type": "dataset",
+        "messages": {}
+      }
+    ]
+  },
+  {
+    "id": "liste-publique-des-organismes-de-formation-l-6351-7-1-du-code-du-travail",
+    "recommendations": [
+      {
+        "id": "moteur-de-recherche-des-organismes-de-formation",
+        "score": 50,
+        "type": "reuse",
+        "messages": {}
+      }
+    ]
+  },
+  {
+    "id": "contours-des-bureaux-de-vote",
+    "recommendations": [
+      {
+        "id": "bureaux-de-vote-et-adresses-de-leurs-electeurs",
+        "score": 50,
+        "type": "dataset",
+        "messages": {}
+      }
+    ]
+  }
+]

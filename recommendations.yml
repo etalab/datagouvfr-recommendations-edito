@@ -1459,24 +1459,43 @@
           message: "« Impact CO2 » vous permet de rechercher les émissions nécessaires pour fabriquer et consommer les objets qui vous entourent."
           button: "Consulter « Impact CO2 »"
 
-# Alim'confiance --> Reuse du MAA
+# Alim'confiance --> Annuaire des Entreprises
 
 - 
   source: https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/
   recommendations:
     -
-      id: https://www.alim-confiance.gouv.fr/
+      id: https://annuaire-entreprises.data.gouv.fr/
       score: 50
       type: external
       messages:
         en:
           title: "Are you seeking to know about the level of hygiene of your food production, processing and distribution establishments?"
-          message: "Alim’confiance allows you to easily check the results of official food safety controls."
-          button: "Visit « Impact CO2 »"
+          message: "L'Annuaire des Entreprises allows you to easily check the results of official food safety controls."
+          button: "Visit l'Annuaire des Entreprises"
         fr:
           title: "Vous souhaitez vous renseigner sur le niveau d’hygiène des établissements de production, de transformation et de distribution de vos produits alimentaires ?"
-          message: "Alim’confiance vous permet de consulter facilement les résultats des contrôles officiels réalisés en matière de sécurité sanitaire des aliments."
-          button: "Visit « Alim’confiance »"
+          message: "L'Annuaire des Entreprises vous permet de consulter facilement les résultats des contrôles officiels réalisés en matière de sécurité sanitaire des aliments."
+          button: "Voir l'Annuaire des Entreprises"
+
+# Alim'confiance jeu temporaire --> Annuaire des Entreprises
+
+- 
+  source: https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance-export-temporaire/
+  recommendations:
+    -
+      id: https://annuaire-entreprises.data.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you seeking to know about the level of hygiene of your food production, processing and distribution establishments?"
+          message: "L'Annuaire des Entreprises allows you to easily check the results of official food safety controls."
+          button: "Visit l'Annuaire des Entreprises"
+        fr:
+          title: "Vous souhaitez vous renseigner sur le niveau d’hygiène des établissements de production, de transformation et de distribution de vos produits alimentaires ?"
+          message: "L'Annuaire des Entreprises vous permet de consulter facilement les résultats des contrôles officiels réalisés en matière de sécurité sanitaire des aliments."
+          button: "Voir l'Annuaire des Entreprises"
 
 # Registre des copros --> Annuaire de l'Anah
 
